@@ -21,28 +21,60 @@ X = []
 y = []
 
 for plantIndex in plantDict:
-
     plant = plantDict[plantIndex]
-
-    for i in range(100):
-        temp = random.uniform(30, 110)
-        humidity = random.uniform(0, 100)
-        
-        # Map plant light ranges to raw sensor range
-        plant_light_min = 7000 + (plant[5] / 30000) * (65535 - 7000)
-        plant_light_max = 7000 + (plant[6] / 30000) * (65535 - 7000)
-        
-        light_val = random.uniform(7000, 65535)
-        
-        temp_off = max(0, plant[1] - temp, temp - plant[2])
-        hum_off = max(0, plant[3] - humidity, humidity - plant[4])
-        light_off = max(0, plant_light_min - light_val, light_val - plant_light_max)
-        
-        score = max(0, min(90, 90 - (temp_off * 1.5) - (hum_off * 1.2) - (light_off * 0.001)))
-        
+    
+    # 50 samples INSIDE ideal range — should score 85-90
+    for i in range(50):
+        plant_light_min = 5500 + (plant[5] / 30000) * (50000 - 5500)
+        plant_light_max = 5500 + (plant[6] / 30000) * (50000 - 5500)
+        temp = random.uniform(plant[1], plant[2])
+        humidity = random.uniform(plant[3], plant[4])
+        light_val = random.uniform(plant_light_min, plant_light_max)
+        score = random.uniform(85, 90)
         X.append([plantIndex, temp, humidity, light_val])
         y.append(score)
-
+    
+    # 50 samples SLIGHTLY outside — should score 40-70
+    for i in range(50):
+        plant_light_min = 5500 + (plant[5] / 30000) * (50000 - 5500)
+        plant_light_max = 5500 + (plant[6] / 30000) * (50000 - 5500)
+        temp = random.uniform(plant[1] - 15, plant[2] + 15)
+        humidity = random.uniform(max(0, plant[3] - 20), min(100, plant[4] + 20))
+        light_val = random.uniform(max(5500, plant_light_min - 10000), min(50000, plant_light_max + 10000))
+        
+        t_off = max(0, plant[1] - temp, temp - plant[2])
+        h_off = max(0, plant[3] - humidity, humidity - plant[4])
+        l_off = max(0, plant_light_min - light_val, light_val - plant_light_max)
+        
+        t_pct = t_off / max(1, plant[2] - plant[1]) 
+        h_pct = h_off / max(1, plant[4] - plant[3])
+        l_pct = l_off / max(1, plant_light_max - plant_light_min)
+        
+        penalty = (t_pct + h_pct + l_pct) / 3
+        score = max(30, 85 - (penalty * 55))
+        X.append([plantIndex, temp, humidity, light_val])
+        y.append(score)
+    
+    # 50 samples FAR outside — should score 0-30
+    for i in range(75):
+        plant_light_min = 5500 + (plant[5] / 30000) * (50000 - 5500)
+        plant_light_max = 5500 + (plant[6] / 30000) * (50000 - 5500)
+        temp = random.uniform(30, 110)
+        humidity = random.uniform(0, 100)
+        light_val = random.uniform(5500, 50000)
+        
+        t_off = max(0, plant[1] - temp, temp - plant[2])
+        h_off = max(0, plant[3] - humidity, humidity - plant[4])
+        l_off = max(0, plant_light_min - light_val, light_val - plant_light_max)
+        
+        t_pct = t_off / max(1, plant[2] - plant[1])
+        h_pct = h_off / max(1, plant[4] - plant[3])
+        l_pct = l_off / max(1, plant_light_max - plant_light_min)
+        
+        penalty = (t_pct + h_pct + l_pct) / 3
+        score = max(0, 30 - (penalty * 35))
+        X.append([plantIndex, temp, humidity, light_val])
+        y.append(score)
 
 clf = DecisionTreeRegressor(max_depth=10)
 clf.fit(X, y)

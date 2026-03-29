@@ -1,2462 +1,2105 @@
 def predict(plant, temp, humidity, light):
-    if light <= 41320.29:
-        if humidity <= 19.35:
-            if temp <= 93.71:
-                if temp <= 45.79:
-                    if temp <= 37.22:
-                        if humidity <= 6.38:
-                            if temp <= 33.66:
-                                if plant <= 63.5:
-                                    return 0.0
+    if light <= 27900.52:
+        if humidity <= 20.02:
+            if humidity <= 10.02:
+                if temp <= 86.11:
+                    if temp <= 53.23:
+                        if plant <= 5.0:
+                            if plant <= 2.5:
+                                if plant <= 0.5:
+                                    return 9.13
                                 else:
-                                    if plant <= 87.5:
-                                        if temp <= 32.29:
-                                            return 8.84
-                                        else:
-                                            return 26.82
-                                    else:
-                                        if plant <= 187.5:
-                                            return 2.3
-                                        else:
-                                            return 12.92
+                                    return 0.0
                             else:
-                                if temp <= 34.8:
-                                    if light <= 11910.73:
-                                        if light <= 9798.73:
-                                            return 29.81
+                                if humidity <= 6.78:
+                                    if light <= 15655.59:
+                                        return 13.86
+                                    else:
+                                        if light <= 22023.98:
+                                            return 15.82
+                                        else:
+                                            return 17.18
+                                else:
+                                    if temp <= 42.1:
+                                        return 59.32
+                                    else:
+                                        return 67.8
+                        else:
+                            if temp <= 40.27:
+                                if humidity <= 9.84:
+                                    if humidity <= 1.22:
+                                        if humidity <= 1.01:
+                                            return 0.0
+                                        else:
+                                            return 58.95
+                                    else:
+                                        if plant <= 177.0:
+                                            return 1.02
+                                        else:
+                                            return 3.51
+                                else:
+                                    if temp <= 36.55:
+                                        return 13.32
+                                    else:
+                                        return 18.12
+                            else:
+                                if temp <= 40.33:
+                                    return 62.24
+                                else:
+                                    if light <= 27785.39:
+                                        if plant <= 31.0:
+                                            return 0.74
+                                        else:
+                                            return 5.54
+                                    else:
+                                        if temp <= 48.73:
+                                            return 20.51
+                                        else:
+                                            return 15.92
+                    else:
+                        if temp <= 54.25:
+                            if plant <= 99.5:
+                                if light <= 22690.11:
+                                    if light <= 10616.96:
+                                        return 61.69
+                                    else:
+                                        if plant <= 57.5:
+                                            return 6.85
+                                        else:
+                                            return 17.98
+                                else:
+                                    if humidity <= 6.87:
+                                        return 70.67
+                                    else:
+                                        return 73.81
+                            else:
+                                if plant <= 147.0:
+                                    if temp <= 53.65:
+                                        return 9.01
+                                    else:
+                                        return 9.16
+                                else:
+                                    return 0.0
+                        else:
+                            if temp <= 86.02:
+                                if plant <= 184.5:
+                                    if plant <= 99.5:
+                                        if plant <= 98.5:
+                                            return 10.79
+                                        else:
+                                            return 46.98
+                                    else:
+                                        if humidity <= 7.54:
+                                            return 4.46
+                                        else:
+                                            return 9.73
+                                else:
+                                    if plant <= 185.5:
+                                        if humidity <= 4.6:
+                                            return 42.71
+                                        else:
+                                            return 71.62
+                                    else:
+                                        if humidity <= 0.42:
+                                            return 66.94
+                                        else:
+                                            return 8.64
+                            else:
+                                return 68.75
+                else:
+                    if plant <= 196.5:
+                        if light <= 27251.42:
+                            if temp <= 97.77:
+                                if temp <= 97.63:
+                                    if temp <= 96.77:
+                                        if humidity <= 4.93:
+                                            return 1.34
+                                        else:
+                                            return 5.41
+                                    else:
+                                        if temp <= 96.86:
+                                            return 56.0
+                                        else:
+                                            return 9.58
+                                else:
+                                    return 57.71
+                            else:
+                                if humidity <= 8.6:
+                                    if humidity <= 0.39:
+                                        if temp <= 103.68:
+                                            return 0.85
+                                        else:
+                                            return 13.41
+                                    else:
+                                        if temp <= 98.2:
+                                            return 2.69
+                                        else:
+                                            return 0.61
+                                else:
+                                    if humidity <= 9.34:
+                                        if humidity <= 9.16:
+                                            return 4.73
+                                        else:
+                                            return 13.84
+                                    else:
+                                        if temp <= 104.89:
+                                            return 0.04
+                                        else:
+                                            return 4.94
+                        else:
+                            if light <= 27347.25:
+                                return 60.46
+                            else:
+                                return 0.0
+                    else:
+                        if temp <= 99.45:
+                            return 66.84
+                        else:
+                            if plant <= 198.5:
+                                return 12.96
+                            else:
+                                return 0.0
+            else:
+                if temp <= 100.01:
+                    if temp <= 44.71:
+                        if plant <= 3.5:
+                            if temp <= 40.94:
+                                if temp <= 36.73:
+                                    return 76.3
+                                else:
+                                    return 54.12
+                            else:
+                                return 13.67
+                        else:
+                            if temp <= 39.93:
+                                if temp <= 35.17:
+                                    if humidity <= 15.68:
+                                        if humidity <= 10.27:
+                                            return 5.04
+                                        else:
+                                            return 1.03
+                                    else:
+                                        if plant <= 57.0:
+                                            return 0.21
+                                        else:
+                                            return 4.71
+                                else:
+                                    if temp <= 36.02:
+                                        if light <= 23419.1:
+                                            return 11.2
+                                        else:
+                                            return 0.0
+                                    else:
+                                        if humidity <= 13.45:
+                                            return 0.51
+                                        else:
+                                            return 4.22
+                            else:
+                                if plant <= 172.0:
+                                    if temp <= 40.44:
+                                        if plant <= 38.0:
+                                            return 12.94
+                                        else:
+                                            return 49.99
+                                    else:
+                                        if plant <= 76.0:
+                                            return 3.12
+                                        else:
+                                            return 14.42
+                                else:
+                                    if light <= 15872.97:
+                                        return 0.0
+                                    else:
+                                        if humidity <= 13.62:
+                                            return 59.34
+                                        else:
+                                            return 73.72
+                    else:
+                        if plant <= 167.5:
+                            if plant <= 141.5:
+                                if plant <= 28.5:
+                                    if plant <= 6.5:
+                                        if humidity <= 12.76:
+                                            return 5.64
+                                        else:
+                                            return 38.9
+                                    else:
+                                        if temp <= 89.17:
+                                            return 7.24
+                                        else:
+                                            return 2.84
+                                else:
+                                    if plant <= 33.5:
+                                        if plant <= 32.5:
+                                            return 33.67
+                                        else:
+                                            return 74.17
+                                    else:
+                                        if plant <= 140.5:
+                                            return 24.34
+                                        else:
+                                            return 47.7
+                            else:
+                                if temp <= 45.33:
+                                    return 64.02
+                                else:
+                                    if temp <= 97.74:
+                                        if plant <= 158.5:
+                                            return 10.79
+                                        else:
+                                            return 5.16
+                                    else:
+                                        return 63.82
+                        else:
+                            if temp <= 93.6:
+                                if humidity <= 16.36:
+                                    if light <= 19611.49:
+                                        if humidity <= 10.65:
+                                            return 56.83
+                                        else:
+                                            return 33.99
+                                    else:
+                                        if plant <= 168.5:
+                                            return 68.6
+                                        else:
+                                            return 15.24
+                                else:
+                                    if temp <= 64.61:
+                                        if temp <= 48.07:
+                                            return 65.78
+                                        else:
+                                            return 19.02
+                                    else:
+                                        if humidity <= 19.54:
+                                            return 56.31
+                                        else:
+                                            return 18.12
+                            else:
+                                if light <= 11000.71:
+                                    if light <= 8263.81:
+                                        if humidity <= 14.69:
+                                            return 20.63
+                                        else:
+                                            return 8.64
+                                    else:
+                                        return 73.57
+                                else:
+                                    if humidity <= 11.7:
+                                        if plant <= 190.0:
+                                            return 11.45
+                                        else:
+                                            return 21.39
+                                    else:
+                                        if humidity <= 17.24:
+                                            return 3.16
+                                        else:
+                                            return 13.69
+                else:
+                    if temp <= 101.46:
+                        if light <= 22051.88:
+                            if plant <= 184.0:
+                                if light <= 5971.52:
+                                    return 16.28
+                                else:
+                                    if plant <= 109.0:
+                                        if temp <= 100.27:
+                                            return 2.48
+                                        else:
+                                            return 0.2
+                                    else:
+                                        if temp <= 100.51:
+                                            return 2.31
+                                        else:
+                                            return 7.46
+                            else:
+                                return 21.03
+                        else:
+                            if light <= 24657.55:
+                                return 61.53
+                            else:
+                                return 15.14
+                    else:
+                        if humidity <= 19.38:
+                            if light <= 22962.29:
+                                if light <= 22849.3:
+                                    if plant <= 168.0:
+                                        if humidity <= 16.53:
+                                            return 1.04
+                                        else:
+                                            return 4.05
+                                    else:
+                                        if plant <= 190.0:
+                                            return 7.21
+                                        else:
+                                            return 1.49
+                                else:
+                                    return 12.93
+                            else:
+                                if temp <= 101.99:
+                                    return 9.59
+                                else:
+                                    if humidity <= 10.44:
+                                        return 2.12
+                                    else:
+                                        if humidity <= 11.88:
+                                            return 0.72
+                                        else:
+                                            return 0.0
+                        else:
+                            if plant <= 93.5:
+                                if light <= 8977.25:
+                                    return 3.45
+                                else:
+                                    if light <= 12993.44:
+                                        return 4.38
+                                    else:
+                                        return 4.69
+                            else:
+                                if humidity <= 19.89:
+                                    if light <= 13353.26:
+                                        if light <= 10654.83:
+                                            return 15.71
+                                        else:
+                                            return 13.53
+                                    else:
+                                        if temp <= 104.82:
+                                            return 10.43
+                                        else:
+                                            return 10.34
+                                else:
+                                    if light <= 11432.3:
+                                        return 6.03
+                                    else:
+                                        return 7.49
+        else:
+            if humidity <= 79.82:
+                if temp <= 94.96:
+                    if temp <= 45.14:
+                        if temp <= 40.01:
+                            if temp <= 29.54:
+                                if plant <= 166.5:
+                                    if light <= 7153.2:
+                                        return 62.91
+                                    else:
+                                        if temp <= 26.27:
+                                            return 52.85
+                                        else:
+                                            return 53.89
+                                else:
+                                    if humidity <= 56.84:
+                                        if temp <= 27.37:
+                                            return 63.18
+                                        else:
+                                            return 60.79
+                                    else:
+                                        return 70.75
+                            else:
+                                if temp <= 35.76:
+                                    if plant <= 40.5:
+                                        if light <= 17134.49:
+                                            return 11.83
+                                        else:
+                                            return 5.18
+                                    else:
+                                        if plant <= 49.5:
+                                            return 36.08
+                                        else:
+                                            return 14.94
+                                else:
+                                    if plant <= 3.5:
+                                        if humidity <= 32.79:
+                                            return 74.07
+                                        else:
+                                            return 32.52
+                                    else:
+                                        if humidity <= 31.36:
+                                            return 13.6
+                                        else:
+                                            return 25.19
+                        else:
+                            if plant <= 190.5:
+                                if humidity <= 21.1:
+                                    if temp <= 42.85:
+                                        if plant <= 134.5:
+                                            return 2.47
+                                        else:
+                                            return 18.74
+                                    else:
+                                        return 75.07
+                                else:
+                                    if light <= 13242.72:
+                                        if humidity <= 27.4:
+                                            return 23.2
+                                        else:
+                                            return 41.11
+                                    else:
+                                        if light <= 27218.98:
+                                            return 47.26
+                                        else:
+                                            return 28.76
+                            else:
+                                if plant <= 191.5:
+                                    if light <= 9987.18:
+                                        if light <= 6293.48:
+                                            return 73.8
+                                        else:
+                                            return 24.45
+                                    else:
+                                        if humidity <= 69.67:
+                                            return 83.86
+                                        else:
+                                            return 20.34
+                                else:
+                                    if light <= 12433.79:
+                                        if light <= 6441.06:
+                                            return 0.23
+                                        else:
+                                            return 13.46
+                                    else:
+                                        if humidity <= 36.72:
+                                            return 25.42
+                                        else:
+                                            return 57.72
+                    else:
+                        if temp <= 84.98:
+                            if temp <= 54.86:
+                                if humidity <= 39.85:
+                                    if plant <= 0.5:
+                                        if light <= 11933.96:
+                                            return 81.7
+                                        else:
+                                            return 88.22
+                                    else:
+                                        if humidity <= 30.24:
+                                            return 47.23
+                                        else:
+                                            return 53.84
+                                else:
+                                    if humidity <= 65.79:
+                                        if light <= 6320.65:
+                                            return 51.04
+                                        else:
+                                            return 65.18
+                                    else:
+                                        if light <= 22124.55:
+                                            return 56.76
+                                        else:
+                                            return 40.82
+                            else:
+                                if humidity <= 30.01:
+                                    if light <= 17499.97:
+                                        if plant <= 28.5:
+                                            return 36.28
+                                        else:
+                                            return 51.05
+                                    else:
+                                        if temp <= 83.49:
+                                            return 62.69
+                                        else:
+                                            return 40.24
+                                else:
+                                    if humidity <= 69.99:
+                                        if humidity <= 40.06:
+                                            return 71.64
+                                        else:
+                                            return 80.57
+                                    else:
+                                        if light <= 16249.75:
+                                            return 72.87
+                                        else:
+                                            return 60.33
+                        else:
+                            if humidity <= 31.25:
+                                if temp <= 90.49:
+                                    if plant <= 20.5:
+                                        if temp <= 85.82:
+                                            return 34.6
+                                        else:
+                                            return 67.43
+                                    else:
+                                        if light <= 14908.07:
+                                            return 52.46
+                                        else:
+                                            return 39.75
+                                else:
+                                    if plant <= 191.0:
+                                        if humidity <= 25.77:
+                                            return 20.07
+                                        else:
+                                            return 39.64
+                                    else:
+                                        if plant <= 196.5:
+                                            return 58.75
+                                        else:
+                                            return 78.6
+                            else:
+                                if humidity <= 75.23:
+                                    if plant <= 89.5:
+                                        if humidity <= 43.19:
+                                            return 49.79
+                                        else:
+                                            return 55.3
+                                    else:
+                                        if humidity <= 68.73:
+                                            return 58.93
+                                        else:
+                                            return 50.36
+                                else:
+                                    if temp <= 92.84:
+                                        if light <= 13745.37:
+                                            return 54.41
+                                        else:
+                                            return 41.47
+                                    else:
+                                        if plant <= 175.5:
+                                            return 35.9
+                                        else:
+                                            return 9.82
+                else:
+                    if temp <= 100.33:
+                        if humidity <= 73.0:
+                            if humidity <= 72.03:
+                                if plant <= 2.5:
+                                    if light <= 22569.28:
+                                        if temp <= 97.38:
+                                            return 12.94
+                                        else:
+                                            return 16.8
+                                    else:
+                                        if temp <= 98.19:
+                                            return 0.0
+                                        else:
+                                            return 5.15
+                                else:
+                                    if plant <= 5.5:
+                                        if plant <= 4.0:
+                                            return 65.53
+                                        else:
+                                            return 81.12
+                                    else:
+                                        if plant <= 17.5:
+                                            return 21.38
+                                        else:
+                                            return 33.18
+                            else:
+                                if light <= 9230.81:
+                                    return 8.85
+                                else:
+                                    if temp <= 97.68:
+                                        if humidity <= 72.63:
+                                            return 62.04
+                                        else:
+                                            return 64.5
+                                    else:
+                                        if temp <= 99.42:
+                                            return 73.84
+                                        else:
+                                            return 69.05
+                        else:
+                            if plant <= 25.0:
+                                return 62.44
+                            else:
+                                if plant <= 65.5:
+                                    if plant <= 31.5:
+                                        if humidity <= 77.79:
+                                            return 11.26
+                                        else:
+                                            return 9.98
+                                    else:
+                                        if plant <= 43.0:
+                                            return 1.5
+                                        else:
+                                            return 6.13
+                                else:
+                                    if temp <= 95.57:
+                                        if humidity <= 75.77:
+                                            return 65.33
+                                        else:
+                                            return 15.54
+                                    else:
+                                        if humidity <= 79.49:
+                                            return 13.33
+                                        else:
+                                            return 35.29
+                    else:
+                        if plant <= 5.5:
+                            if plant <= 4.5:
+                                if humidity <= 37.85:
+                                    if plant <= 2.5:
+                                        if light <= 18084.68:
+                                            return 19.68
+                                        else:
+                                            return 0.0
+                                    else:
+                                        return 72.12
+                                else:
+                                    if plant <= 2.5:
+                                        if humidity <= 67.32:
+                                            return 13.28
+                                        else:
+                                            return 18.12
+                                    else:
+                                        if temp <= 101.73:
+                                            return 12.13
+                                        else:
+                                            return 2.76
+                            else:
+                                if humidity <= 68.11:
+                                    if light <= 20335.97:
+                                        if humidity <= 46.64:
+                                            return 74.28
+                                        else:
+                                            return 77.55
+                                    else:
+                                        if temp <= 102.8:
+                                            return 71.78
+                                        else:
+                                            return 68.04
+                                else:
+                                    if temp <= 104.66:
+                                        return 17.86
+                                    else:
+                                        return 8.44
+                        else:
+                            if plant <= 196.5:
+                                if temp <= 104.91:
+                                    if humidity <= 69.71:
+                                        if humidity <= 42.18:
+                                            return 11.27
+                                        else:
+                                            return 18.19
+                                    else:
+                                        if light <= 7397.46:
+                                            return 0.0
+                                        else:
+                                            return 7.51
+                                else:
+                                    if humidity <= 32.87:
+                                        if plant <= 150.5:
+                                            return 7.16
+                                        else:
+                                            return 2.47
+                                    else:
+                                        if humidity <= 69.93:
+                                            return 11.56
+                                        else:
+                                            return 6.19
+                            else:
+                                if plant <= 197.5:
+                                    if temp <= 102.93:
+                                        if humidity <= 37.76:
+                                            return 78.15
                                         else:
                                             return 26.55
                                     else:
-                                        if humidity <= 2.92:
-                                            return 5.51
-                                        else:
-                                            return 16.61
-                                else:
-                                    if humidity <= 3.36:
-                                        if humidity <= 3.21:
-                                            return 9.03
-                                        else:
-                                            return 32.53
-                                    else:
-                                        if temp <= 36.2:
-                                            return 1.52
-                                        else:
-                                            return 10.65
-                        else:
-                            if humidity <= 6.75:
-                                if temp <= 32.69:
-                                    if plant <= 182.5:
-                                        return 25.86
-                                    else:
-                                        return 28.81
-                                else:
-                                    if light <= 23799.84:
-                                        return 44.45
-                                    else:
-                                        return 50.27
-                            else:
-                                if humidity <= 8.36:
-                                    if plant <= 182.0:
-                                        if temp <= 35.38:
-                                            return 3.55
-                                        else:
-                                            return 17.37
-                                    else:
-                                        return 36.8
-                                else:
-                                    if humidity <= 8.66:
-                                        if temp <= 34.94:
-                                            return 39.38
-                                        else:
-                                            return 18.26
-                                    else:
-                                        if plant <= 1.0:
-                                            return 46.05
-                                        else:
-                                            return 16.9
-                    else:
-                        if humidity <= 6.38:
-                            if temp <= 38.45:
-                                if temp <= 37.36:
-                                    return 32.67
-                                else:
-                                    if light <= 24515.29:
-                                        if humidity <= 4.77:
-                                            return 0.0
-                                        else:
-                                            return 3.52
-                                    else:
-                                        if plant <= 72.0:
-                                            return 22.98
-                                        else:
-                                            return 5.5
-                            else:
-                                if plant <= 140.5:
-                                    if temp <= 39.06:
-                                        if humidity <= 3.93:
-                                            return 52.36
-                                        else:
-                                            return 35.1
-                                    else:
-                                        if temp <= 39.95:
-                                            return 2.71
-                                        else:
-                                            return 18.82
-                                else:
-                                    if humidity <= 5.19:
-                                        if humidity <= 5.06:
-                                            return 29.43
-                                        else:
-                                            return 53.45
-                                    else:
-                                        if plant <= 149.5:
-                                            return 34.18
-                                        else:
-                                            return 8.61
-                        else:
-                            if plant <= 165.5:
-                                if plant <= 120.0:
-                                    if plant <= 98.5:
-                                        if plant <= 82.0:
-                                            return 29.31
-                                        else:
-                                            return 19.93
-                                    else:
-                                        if plant <= 104.5:
-                                            return 46.55
-                                        else:
-                                            return 30.59
-                                else:
-                                    if plant <= 127.5:
-                                        if light <= 20469.78:
-                                            return 6.79
-                                        else:
-                                            return 0.0
-                                    else:
-                                        if temp <= 42.31:
-                                            return 28.01
-                                        else:
-                                            return 14.62
-                            else:
-                                if plant <= 187.5:
-                                    if humidity <= 15.73:
-                                        if plant <= 170.5:
-                                            return 43.87
-                                        else:
-                                            return 37.5
-                                    else:
-                                        if plant <= 180.0:
-                                            return 42.83
-                                        else:
-                                            return 59.05
-                                else:
-                                    if plant <= 190.5:
-                                        if light <= 10463.53:
-                                            return 16.19
-                                        else:
-                                            return 12.81
-                                    else:
-                                        if temp <= 44.44:
-                                            return 21.41
-                                        else:
-                                            return 49.34
-                else:
-                    if humidity <= 9.99:
-                        if temp <= 88.32:
-                            if humidity <= 4.39:
-                                if light <= 32966.16:
-                                    if temp <= 53.25:
-                                        if humidity <= 3.87:
-                                            return 23.31
-                                        else:
-                                            return 35.51
-                                    else:
-                                        if plant <= 196.5:
-                                            return 36.69
-                                        else:
-                                            return 55.3
-                                else:
-                                    if plant <= 182.0:
-                                        if plant <= 2.0:
-                                            return 54.61
-                                        else:
-                                            return 22.31
-                                    else:
-                                        if humidity <= 1.82:
-                                            return 28.33
-                                        else:
-                                            return 61.1
-                            else:
-                                if light <= 33937.85:
-                                    if temp <= 48.34:
-                                        if plant <= 195.0:
-                                            return 32.48
-                                        else:
-                                            return 51.02
-                                    else:
-                                        if plant <= 40.5:
-                                            return 38.34
-                                        else:
-                                            return 45.58
-                                else:
-                                    if plant <= 6.5:
-                                        if light <= 39092.69:
-                                            return 55.11
-                                        else:
-                                            return 75.32
-                                    else:
-                                        if plant <= 165.5:
-                                            return 30.46
-                                        else:
-                                            return 46.86
-                        else:
-                            if light <= 27843.21:
-                                if light <= 7687.17:
-                                    return 54.78
-                                else:
-                                    if humidity <= 6.92:
-                                        if humidity <= 1.09:
-                                            return 21.32
-                                        else:
-                                            return 30.78
-                                    else:
-                                        if temp <= 91.83:
-                                            return 22.87
-                                        else:
-                                            return 12.61
-                            else:
-                                if humidity <= 1.77:
-                                    if plant <= 77.0:
-                                        return 0.73
-                                    else:
-                                        return 0.0
-                                else:
-                                    if plant <= 26.0:
-                                        if plant <= 8.5:
-                                            return 0.28
-                                        else:
-                                            return 6.01
-                                    else:
-                                        if plant <= 85.0:
-                                            return 38.05
-                                        else:
-                                            return 15.01
-                    else:
-                        if temp <= 86.01:
-                            if temp <= 58.14:
-                                if light <= 35736.26:
-                                    if temp <= 47.61:
-                                        if light <= 22688.24:
-                                            return 45.42
-                                        else:
-                                            return 22.25
-                                    else:
-                                        if plant <= 8.0:
-                                            return 63.78
-                                        else:
-                                            return 47.32
-                                else:
-                                    if humidity <= 15.27:
-                                        if plant <= 148.0:
-                                            return 40.17
-                                        else:
-                                            return 26.38
-                                    else:
-                                        if humidity <= 15.46:
-                                            return 2.72
-                                        else:
-                                            return 22.39
-                            else:
-                                if humidity <= 13.4:
-                                    if temp <= 73.0:
-                                        if temp <= 71.27:
-                                            return 49.28
-                                        else:
-                                            return 63.61
-                                    else:
-                                        if light <= 37151.18:
-                                            return 46.49
-                                        else:
-                                            return 32.59
-                                else:
-                                    if temp <= 81.76:
-                                        if humidity <= 19.28:
-                                            return 56.78
-                                        else:
-                                            return 17.76
-                                    else:
-                                        if temp <= 85.79:
-                                            return 47.49
-                                        else:
-                                            return 70.79
-                        else:
-                            if humidity <= 14.67:
-                                if temp <= 92.82:
-                                    if light <= 26198.58:
-                                        if light <= 14634.94:
-                                            return 28.28
-                                        else:
-                                            return 40.56
-                                    else:
-                                        if plant <= 168.5:
-                                            return 23.21
-                                        else:
-                                            return 39.81
-                                else:
-                                    if plant <= 21.5:
-                                        return 27.82
-                                    else:
-                                        if plant <= 188.5:
-                                            return 60.27
-                                        else:
-                                            return 32.94
-                            else:
-                                if plant <= 64.5:
-                                    if plant <= 48.5:
-                                        if humidity <= 17.83:
-                                            return 51.83
-                                        else:
-                                            return 28.12
-                                    else:
-                                        if plant <= 61.5:
-                                            return 15.65
-                                        else:
-                                            return 38.49
-                                else:
-                                    if plant <= 67.0:
-                                        return 80.16
-                                    else:
-                                        if temp <= 87.0:
-                                            return 34.57
-                                        else:
-                                            return 47.11
-            else:
-                if humidity <= 13.49:
-                    if temp <= 101.11:
-                        if humidity <= 2.49:
-                            if humidity <= 0.14:
-                                if light <= 27695.64:
-                                    return 18.11
-                                else:
-                                    return 44.6
-                            else:
-                                if plant <= 105.0:
-                                    if temp <= 97.38:
-                                        if temp <= 96.05:
-                                            return 4.21
-                                        else:
-                                            return 31.62
-                                    else:
-                                        if temp <= 99.74:
-                                            return 0.36
-                                        else:
-                                            return 3.28
-                                else:
-                                    if humidity <= 0.94:
-                                        if humidity <= 0.82:
-                                            return 19.46
-                                        else:
-                                            return 0.0
-                                    else:
-                                        if humidity <= 1.61:
-                                            return 22.94
-                                        else:
-                                            return 15.9
-                        else:
-                            if light <= 40366.7:
-                                if light <= 35813.46:
-                                    if light <= 35297.84:
-                                        if plant <= 195.0:
-                                            return 21.05
-                                        else:
-                                            return 55.6
-                                    else:
-                                        return 56.55
-                                else:
-                                    if plant <= 126.5:
-                                        if temp <= 99.29:
-                                            return 8.11
-                                        else:
-                                            return 0.0
-                                    else:
-                                        if temp <= 96.85:
-                                            return 8.49
-                                        else:
+                                        if humidity <= 47.01:
                                             return 24.7
-                            else:
-                                return 61.43
-                    else:
-                        if temp <= 107.11:
-                            if humidity <= 10.81:
-                                if light <= 38235.55:
-                                    if plant <= 6.0:
-                                        if humidity <= 5.08:
-                                            return 21.53
                                         else:
-                                            return 32.75
-                                    else:
-                                        if plant <= 19.5:
-                                            return 2.72
-                                        else:
-                                            return 11.74
+                                            return 14.5
                                 else:
-                                    if humidity <= 2.78:
-                                        return 2.55
-                                    else:
-                                        return 0.0
-                            else:
-                                if plant <= 193.5:
-                                    if humidity <= 10.94:
-                                        return 46.55
-                                    else:
-                                        if plant <= 33.5:
-                                            return 30.3
+                                    if light <= 25450.3:
+                                        if light <= 10974.99:
+                                            return 16.75
                                         else:
-                                            return 11.57
-                                else:
-                                    return 49.95
-                        else:
-                            if humidity <= 9.19:
-                                if plant <= 10.0:
-                                    return 17.29
-                                else:
-                                    if humidity <= 1.03:
-                                        if plant <= 84.0:
-                                            return 20.11
-                                        else:
-                                            return 2.99
-                                    else:
-                                        if light <= 38725.26:
-                                            return 1.85
-                                        else:
-                                            return 5.55
-                            else:
-                                if humidity <= 9.46:
-                                    return 47.85
-                                else:
-                                    if plant <= 113.0:
-                                        if plant <= 47.5:
-                                            return 3.3
-                                        else:
-                                            return 16.54
-                                    else:
-                                        if plant <= 141.0:
-                                            return 7.01
-                                        else:
-                                            return 0.38
-                else:
-                    if temp <= 105.56:
-                        if plant <= 153.5:
-                            if humidity <= 18.91:
-                                if humidity <= 16.0:
-                                    if plant <= 65.0:
-                                        if plant <= 6.5:
-                                            return 4.44
-                                        else:
-                                            return 18.56
-                                    else:
-                                        if humidity <= 13.72:
-                                            return 47.9
-                                        else:
-                                            return 29.08
-                                else:
-                                    if light <= 18319.07:
-                                        if temp <= 97.58:
-                                            return 60.5
-                                        else:
-                                            return 22.74
-                                    else:
-                                        if humidity <= 17.15:
-                                            return 47.18
-                                        else:
-                                            return 35.3
-                            else:
-                                if light <= 29412.71:
-                                    if humidity <= 19.12:
-                                        return 3.98
-                                    else:
-                                        if light <= 21846.02:
-                                            return 30.54
-                                        else:
-                                            return 28.41
-                                else:
-                                    if light <= 33993.55:
-                                        return 0.0
-                                    else:
-                                        return 3.7
-                        else:
-                            if light <= 24735.54:
-                                if humidity <= 18.89:
-                                    if temp <= 103.82:
-                                        if plant <= 169.0:
-                                            return 11.3
-                                        else:
-                                            return 21.09
-                                    else:
-                                        if humidity <= 18.07:
-                                            return 0.88
-                                        else:
-                                            return 16.43
-                                else:
-                                    if temp <= 103.19:
-                                        return 31.77
-                                    else:
-                                        return 36.45
-                            else:
-                                if light <= 26623.33:
-                                    if humidity <= 16.42:
-                                        return 42.15
-                                    else:
-                                        return 49.89
-                                else:
-                                    if temp <= 96.6:
-                                        if light <= 30762.19:
-                                            return 34.14
-                                        else:
-                                            return 29.81
-                                    else:
-                                        if light <= 27979.47:
-                                            return 27.46
-                                        else:
-                                            return 17.91
-                    else:
-                        if temp <= 109.83:
-                            if humidity <= 13.52:
-                                return 38.34
-                            else:
-                                if temp <= 108.96:
-                                    if plant <= 66.0:
-                                        if humidity <= 13.95:
-                                            return 45.57
-                                        else:
-                                            return 8.11
-                                    else:
-                                        if temp <= 107.08:
-                                            return 12.95
-                                        else:
-                                            return 23.8
-                                else:
-                                    if plant <= 180.0:
-                                        if light <= 17217.63:
-                                            return 12.93
-                                        else:
-                                            return 5.15
-                                    else:
-                                        return 0.0
-                        else:
-                            return 49.32
-        else:
-            if humidity <= 77.91:
-                if temp <= 94.28:
-                    if temp <= 46.85:
-                        if temp <= 38.04:
-                            if humidity <= 28.86:
-                                if temp <= 36.03:
-                                    if plant <= 177.5:
-                                        if light <= 20252.95:
-                                            return 29.26
-                                        else:
-                                            return 21.67
-                                    else:
-                                        if plant <= 190.0:
-                                            return 46.67
-                                        else:
-                                            return 58.26
-                                else:
-                                    if humidity <= 25.23:
-                                        if light <= 35470.91:
-                                            return 33.18
-                                        else:
-                                            return 52.56
-                                    else:
-                                        if humidity <= 28.33:
-                                            return 48.61
-                                        else:
-                                            return 61.85
-                            else:
-                                if humidity <= 66.38:
-                                    if humidity <= 40.03:
-                                        if light <= 36156.72:
-                                            return 42.99
-                                        else:
-                                            return 28.61
-                                    else:
-                                        if temp <= 35.41:
-                                            return 46.71
-                                        else:
-                                            return 52.41
-                                else:
-                                    if light <= 27639.43:
-                                        if light <= 13938.94:
-                                            return 32.71
-                                        else:
-                                            return 43.12
-                                    else:
-                                        if humidity <= 75.25:
-                                            return 35.45
-                                        else:
-                                            return 23.69
-                        else:
-                            if humidity <= 28.37:
-                                if temp <= 41.62:
-                                    if light <= 38417.52:
-                                        if plant <= 186.5:
-                                            return 34.25
-                                        else:
-                                            return 65.53
-                                    else:
-                                        if plant <= 98.0:
-                                            return 5.03
-                                        else:
-                                            return 21.46
-                                else:
-                                    if temp <= 45.89:
-                                        if temp <= 45.55:
-                                            return 43.32
-                                        else:
-                                            return 61.96
-                                    else:
-                                        if plant <= 147.0:
-                                            return 35.43
-                                        else:
-                                            return 26.06
-                            else:
-                                if humidity <= 65.71:
-                                    if temp <= 40.7:
-                                        if plant <= 35.5:
-                                            return 46.67
-                                        else:
-                                            return 54.85
-                                    else:
-                                        if light <= 35716.39:
-                                            return 63.1
-                                        else:
-                                            return 54.46
-                                else:
-                                    if light <= 33234.98:
-                                        if humidity <= 73.44:
-                                            return 54.97
-                                        else:
-                                            return 47.71
-                                    else:
-                                        if plant <= 166.0:
-                                            return 47.16
-                                        else:
-                                            return 39.49
-                    else:
-                        if humidity <= 35.64:
-                            if temp <= 85.27:
-                                if humidity <= 27.11:
-                                    if temp <= 53.69:
-                                        if light <= 37853.58:
-                                            return 52.27
-                                        else:
-                                            return 25.63
-                                    else:
-                                        if light <= 36573.84:
-                                            return 62.71
-                                        else:
-                                            return 54.58
-                                else:
-                                    if temp <= 54.62:
-                                        if light <= 28352.1:
-                                            return 66.39
-                                        else:
-                                            return 51.22
-                                    else:
-                                        if light <= 36520.38:
-                                            return 71.0
-                                        else:
-                                            return 63.81
-                            else:
-                                if humidity <= 24.4:
-                                    if light <= 40641.32:
-                                        if temp <= 94.09:
-                                            return 45.76
-                                        else:
-                                            return 79.96
-                                    else:
-                                        if plant <= 107.0:
-                                            return 5.13
-                                        else:
-                                            return 35.61
-                                else:
-                                    if temp <= 89.43:
-                                        if plant <= 35.5:
-                                            return 69.23
-                                        else:
-                                            return 58.74
-                                    else:
-                                        if light <= 36660.59:
-                                            return 52.64
-                                        else:
-                                            return 40.57
-                        else:
-                            if temp <= 86.85:
-                                if humidity <= 67.86:
-                                    if temp <= 54.28:
-                                        if light <= 33165.09:
-                                            return 74.41
-                                        else:
-                                            return 66.7
-                                    else:
-                                        if light <= 33199.68:
-                                            return 81.47
-                                        else:
-                                            return 75.03
-                                else:
-                                    if temp <= 50.69:
-                                        if light <= 11986.1:
-                                            return 40.98
-                                        else:
-                                            return 60.21
-                                    else:
-                                        if light <= 36008.71:
-                                            return 71.2
-                                        else:
-                                            return 63.15
-                            else:
-                                if humidity <= 68.4:
-                                    if light <= 33935.43:
-                                        if temp <= 87.58:
-                                            return 75.47
-                                        else:
-                                            return 67.9
-                                    else:
-                                        if humidity <= 47.14:
-                                            return 54.31
-                                        else:
-                                            return 62.06
-                                else:
-                                    if temp <= 90.63:
-                                        if light <= 36223.46:
-                                            return 61.15
-                                        else:
-                                            return 50.74
-                                    else:
-                                        if plant <= 164.5:
-                                            return 53.46
-                                        else:
-                                            return 41.44
-                else:
-                    if humidity <= 32.34:
-                        if temp <= 106.9:
-                            if humidity <= 23.0:
-                                if plant <= 38.5:
-                                    if temp <= 102.71:
-                                        if humidity <= 21.28:
-                                            return 22.56
-                                        else:
-                                            return 37.04
-                                    else:
-                                        if temp <= 106.48:
-                                            return 3.66
-                                        else:
-                                            return 17.93
-                                else:
-                                    if temp <= 105.19:
-                                        if temp <= 99.67:
-                                            return 33.42
-                                        else:
-                                            return 25.62
-                                    else:
-                                        if plant <= 159.5:
-                                            return 67.04
-                                        else:
-                                            return 36.9
-                            else:
-                                if light <= 32097.91:
-                                    if temp <= 99.3:
-                                        if plant <= 72.5:
-                                            return 54.19
-                                        else:
-                                            return 42.94
-                                    else:
-                                        if humidity <= 31.07:
-                                            return 39.84
-                                        else:
-                                            return 26.54
-                                else:
-                                    if plant <= 1.0:
-                                        if light <= 37628.25:
-                                            return 56.23
-                                        else:
-                                            return 53.32
-                                    else:
-                                        if plant <= 10.5:
-                                            return 14.82
-                                        else:
-                                            return 30.8
-                        else:
-                            if humidity <= 22.5:
-                                if light <= 38923.59:
-                                    if light <= 32795.11:
-                                        if humidity <= 20.28:
-                                            return 8.64
-                                        else:
-                                            return 19.48
-                                    else:
-                                        if temp <= 107.47:
-                                            return 8.03
-                                        else:
-                                            return 0.04
-                                else:
-                                    if light <= 39640.25:
-                                        return 29.76
-                                    else:
-                                        return 29.64
-                            else:
-                                if light <= 8395.15:
-                                    if humidity <= 26.47:
-                                        return 4.41
-                                    else:
-                                        return 2.78
-                                else:
-                                    if temp <= 108.19:
-                                        if temp <= 107.78:
-                                            return 28.06
-                                        else:
-                                            return 39.9
-                                    else:
-                                        if temp <= 108.61:
-                                            return 8.93
-                                        else:
-                                            return 28.06
-                    else:
-                        if temp <= 101.4:
-                            if humidity <= 73.69:
-                                if temp <= 97.47:
-                                    if light <= 27291.53:
-                                        if humidity <= 42.3:
-                                            return 55.23
-                                        else:
-                                            return 60.88
-                                    else:
-                                        if plant <= 29.0:
-                                            return 43.89
-                                        else:
-                                            return 56.47
-                                else:
-                                    if humidity <= 64.94:
-                                        if humidity <= 35.7:
-                                            return 44.36
-                                        else:
-                                            return 54.32
-                                    else:
-                                        if temp <= 97.53:
-                                            return 24.25
-                                        else:
-                                            return 47.97
-                            else:
-                                if plant <= 190.5:
-                                    if temp <= 100.46:
-                                        if humidity <= 77.64:
-                                            return 44.62
-                                        else:
-                                            return 30.95
-                                    else:
-                                        if humidity <= 76.17:
-                                            return 23.15
-                                        else:
-                                            return 39.92
-                                else:
-                                    return 10.77
-                        else:
-                            if humidity <= 74.35:
-                                if temp <= 105.75:
-                                    if light <= 27591.47:
-                                        if humidity <= 38.62:
-                                            return 40.7
-                                        else:
-                                            return 49.17
-                                    else:
-                                        if humidity <= 44.87:
-                                            return 37.1
-                                        else:
-                                            return 43.95
-                                else:
-                                    if light <= 38287.66:
-                                        if humidity <= 64.17:
-                                            return 41.03
-                                        else:
-                                            return 34.59
-                                    else:
-                                        if humidity <= 40.32:
-                                            return 9.5
-                                        else:
-                                            return 30.59
-                            else:
-                                if temp <= 103.75:
-                                    if light <= 26229.25:
-                                        if plant <= 50.0:
-                                            return 49.09
-                                        else:
-                                            return 36.81
-                                    else:
-                                        if light <= 33873.33:
-                                            return 32.05
-                                        else:
-                                            return 22.83
-                                else:
-                                    if plant <= 155.0:
-                                        if light <= 31016.52:
-                                            return 29.6
-                                        else:
-                                            return 20.22
-                                    else:
-                                        if light <= 31864.9:
                                             return 10.27
+                                    else:
+                                        if light <= 26603.31:
+                                            return 0.0
                                         else:
-                                            return 40.54
+                                            return 5.82
             else:
-                if temp <= 95.28:
-                    if temp <= 46.33:
-                        if humidity <= 88.76:
-                            if temp <= 39.93:
-                                if temp <= 31.84:
-                                    if light <= 7592.75:
-                                        return 44.97
-                                    else:
-                                        if light <= 22625.07:
-                                            return 22.28
+                if humidity <= 89.69:
+                    if temp <= 95.56:
+                        if temp <= 41.17:
+                            if humidity <= 85.02:
+                                if plant <= 59.5:
+                                    if plant <= 48.0:
+                                        if light <= 19722.95:
+                                            return 1.3
                                         else:
-                                            return 14.22
+                                            return 7.1
+                                    else:
+                                        if temp <= 32.23:
+                                            return 3.68
+                                        else:
+                                            return 53.43
                                 else:
-                                    if humidity <= 80.6:
-                                        if plant <= 190.0:
-                                            return 32.73
+                                    if light <= 24259.17:
+                                        if plant <= 191.0:
+                                            return 5.76
                                         else:
-                                            return 49.31
+                                            return 16.81
                                     else:
-                                        if plant <= 166.0:
-                                            return 29.0
+                                        if plant <= 117.0:
+                                            return 64.19
                                         else:
-                                            return 21.03
+                                            return 7.14
                             else:
-                                if light <= 31097.69:
-                                    if humidity <= 83.9:
+                                if temp <= 37.07:
+                                    if light <= 18737.39:
+                                        if plant <= 101.5:
+                                            return 1.23
+                                        else:
+                                            return 4.36
+                                    else:
+                                        if light <= 20000.13:
+                                            return 1.12
+                                        else:
+                                            return 0.0
+                                else:
+                                    if humidity <= 86.8:
+                                        if light <= 20811.26:
+                                            return 6.35
+                                        else:
+                                            return 11.48
+                                    else:
+                                        if light <= 17095.76:
+                                            return 5.19
+                                        else:
+                                            return 0.98
+                        else:
+                            if light <= 19881.9:
+                                if light <= 7768.12:
+                                    if temp <= 46.75:
+                                        if humidity <= 81.28:
+                                            return 45.67
+                                        else:
+                                            return 3.71
+                                    else:
+                                        if plant <= 198.5:
+                                            return 37.98
+                                        else:
+                                            return 5.76
+                                else:
+                                    if plant <= 40.5:
+                                        if temp <= 56.24:
+                                            return 41.79
+                                        else:
+                                            return 56.65
+                                    else:
+                                        if plant <= 117.5:
+                                            return 38.13
+                                        else:
+                                            return 49.2
+                            else:
+                                if temp <= 86.95:
+                                    if humidity <= 81.72:
+                                        if temp <= 45.36:
+                                            return 13.06
+                                        else:
+                                            return 44.99
+                                    else:
                                         if plant <= 194.0:
-                                            return 46.82
+                                            return 32.72
                                         else:
-                                            return 29.35
-                                    else:
-                                        if plant <= 162.0:
-                                            return 38.44
-                                        else:
-                                            return 49.85
+                                            return 7.35
                                 else:
-                                    if humidity <= 83.05:
-                                        if light <= 32626.05:
-                                            return 29.44
+                                    if light <= 22323.81:
+                                        if plant <= 152.0:
+                                            return 16.35
                                         else:
-                                            return 41.3
+                                            return 60.77
                                     else:
-                                        if light <= 40830.97:
-                                            return 25.97
+                                        if temp <= 93.47:
+                                            return 7.38
                                         else:
-                                            return 38.8
-                        else:
-                            if temp <= 35.89:
-                                if humidity <= 95.51:
-                                    if plant <= 141.5:
-                                        if light <= 26052.52:
-                                            return 15.65
-                                        else:
-                                            return 8.29
-                                    else:
-                                        if temp <= 32.51:
-                                            return 12.2
-                                        else:
-                                            return 27.88
-                                else:
-                                    if light <= 36430.12:
-                                        if temp <= 35.28:
-                                            return 7.42
-                                        else:
-                                            return 14.93
-                                    else:
-                                        if humidity <= 98.34:
-                                            return 0.14
-                                        else:
-                                            return 5.01
-                            else:
-                                if humidity <= 94.52:
-                                    if humidity <= 89.04:
-                                        if humidity <= 88.96:
-                                            return 17.97
-                                        else:
-                                            return 0.0
-                                    else:
-                                        if light <= 35874.62:
-                                            return 31.73
-                                        else:
-                                            return 23.16
-                                else:
-                                    if light <= 34372.87:
-                                        if temp <= 40.42:
-                                            return 18.57
-                                        else:
-                                            return 26.28
-                                    else:
-                                        if humidity <= 98.01:
-                                            return 13.98
-                                        else:
-                                            return 3.9
+                                            return 25.01
                     else:
-                        if humidity <= 87.16:
-                            if temp <= 85.94:
-                                if temp <= 55.84:
-                                    if humidity <= 79.43:
-                                        if humidity <= 78.33:
-                                            return 55.78
-                                        else:
-                                            return 61.42
-                                    else:
-                                        if temp <= 53.28:
-                                            return 49.99
-                                        else:
-                                            return 55.46
-                                else:
-                                    if light <= 32426.67:
-                                        if humidity <= 81.69:
-                                            return 65.6
-                                        else:
-                                            return 59.65
-                                    else:
-                                        if humidity <= 80.1:
-                                            return 62.24
-                                        else:
-                                            return 53.72
-                            else:
-                                if temp <= 92.4:
-                                    if light <= 36440.61:
-                                        if humidity <= 85.73:
-                                            return 52.31
-                                        else:
-                                            return 40.08
-                                    else:
-                                        if light <= 40841.52:
-                                            return 39.57
-                                        else:
-                                            return 28.08
-                                else:
-                                    if plant <= 61.5:
-                                        if light <= 19608.11:
-                                            return 18.79
-                                        else:
-                                            return 34.49
-                                    else:
-                                        if temp <= 95.21:
-                                            return 42.36
-                                        else:
-                                            return 67.16
-                        else:
-                            if temp <= 86.82:
-                                if humidity <= 92.46:
-                                    if temp <= 55.61:
-                                        if light <= 8839.45:
-                                            return 22.82
-                                        else:
-                                            return 44.41
-                                    else:
-                                        if light <= 25743.76:
-                                            return 55.1
-                                        else:
-                                            return 48.03
-                                else:
-                                    if temp <= 55.78:
-                                        if temp <= 47.21:
-                                            return 16.48
-                                        else:
-                                            return 37.37
-                                    else:
-                                        if temp <= 74.1:
-                                            return 46.82
-                                        else:
-                                            return 40.97
-                            else:
-                                if humidity <= 95.23:
-                                    if temp <= 91.89:
-                                        if light <= 19671.72:
-                                            return 42.35
-                                        else:
-                                            return 35.36
-                                    else:
-                                        if plant <= 188.5:
-                                            return 31.5
-                                        else:
-                                            return 50.08
-                                else:
-                                    if temp <= 89.51:
-                                        if humidity <= 99.7:
-                                            return 33.94
-                                        else:
-                                            return 14.73
-                                    else:
-                                        if plant <= 189.5:
-                                            return 23.26
-                                        else:
-                                            return 0.0
-                else:
-                    if humidity <= 87.84:
-                        if temp <= 104.28:
-                            if humidity <= 81.78:
-                                if light <= 22907.36:
-                                    if plant <= 15.5:
-                                        return 62.65
-                                    else:
-                                        if plant <= 104.5:
-                                            return 35.49
-                                        else:
-                                            return 45.02
-                                else:
-                                    if plant <= 145.0:
-                                        if temp <= 95.98:
-                                            return 43.1
-                                        else:
-                                            return 30.12
-                                    else:
-                                        if light <= 38612.19:
-                                            return 36.8
-                                        else:
-                                            return 55.54
-                            else:
-                                if plant <= 192.0:
-                                    if plant <= 31.5:
-                                        if temp <= 101.98:
-                                            return 41.38
-                                        else:
-                                            return 29.44
-                                    else:
-                                        if light <= 12370.49:
+                        if temp <= 100.13:
+                            if humidity <= 89.18:
+                                if light <= 26003.7:
+                                    if plant <= 77.0:
+                                        if plant <= 73.5:
                                             return 17.06
                                         else:
-                                            return 28.76
+                                            return 72.8
+                                    else:
+                                        if humidity <= 81.37:
+                                            return 12.98
+                                        else:
+                                            return 5.34
                                 else:
-                                    return 60.13
+                                    if light <= 26537.52:
+                                        if temp <= 98.55:
+                                            return 51.51
+                                        else:
+                                            return 60.54
+                                    else:
+                                        if humidity <= 84.06:
+                                            return 20.89
+                                        else:
+                                            return 0.0
+                            else:
+                                if light <= 16036.61:
+                                    return 57.37
+                                else:
+                                    if temp <= 97.78:
+                                        return 53.2
+                                    else:
+                                        return 50.28
                         else:
-                            if temp <= 108.98:
-                                if temp <= 108.94:
-                                    if humidity <= 83.21:
-                                        if temp <= 108.66:
-                                            return 25.35
-                                        else:
-                                            return 9.04
-                                    else:
-                                        if plant <= 162.0:
-                                            return 15.76
-                                        else:
-                                            return 27.7
-                                else:
-                                    return 46.57
+                            if humidity <= 79.94:
+                                return 20.31
                             else:
-                                if temp <= 109.17:
-                                    if temp <= 109.08:
-                                        return 0.0
+                                if light <= 20070.74:
+                                    if humidity <= 82.28:
+                                        if plant <= 179.5:
+                                            return 5.5
+                                        else:
+                                            return 21.17
                                     else:
-                                        return 1.83
+                                        if temp <= 101.14:
+                                            return 8.14
+                                        else:
+                                            return 2.61
                                 else:
-                                    if humidity <= 78.57:
-                                        return 27.06
+                                    if plant <= 115.5:
+                                        if light <= 27018.8:
+                                            return 1.74
+                                        else:
+                                            return 8.3
                                     else:
-                                        if light <= 9755.61:
-                                            return 26.95
-                                        else:
-                                            return 11.2
-                    else:
-                        if temp <= 104.86:
-                            if humidity <= 93.82:
-                                if light <= 25954.54:
-                                    if temp <= 103.37:
-                                        if humidity <= 89.5:
-                                            return 19.34
-                                        else:
-                                            return 30.2
-                                    else:
-                                        if temp <= 104.61:
-                                            return 14.21
-                                        else:
-                                            return 31.81
-                                else:
-                                    if light <= 26260.53:
-                                        if light <= 26178.94:
-                                            return 2.17
-                                        else:
-                                            return 7.38
-                                    else:
-                                        if temp <= 96.18:
-                                            return 40.79
-                                        else:
-                                            return 20.04
-                            else:
-                                if light <= 19121.11:
-                                    if light <= 13820.44:
-                                        if humidity <= 97.37:
-                                            return 16.79
-                                        else:
-                                            return 4.34
-                                    else:
-                                        if light <= 15580.71:
-                                            return 34.21
-                                        else:
-                                            return 23.09
-                                else:
-                                    if humidity <= 95.73:
-                                        if humidity <= 93.94:
-                                            return 0.73
-                                        else:
-                                            return 17.89
-                                    else:
-                                        if humidity <= 99.31:
-                                            return 6.58
-                                        else:
-                                            return 14.84
-                        else:
-                            if humidity <= 92.19:
-                                if plant <= 153.5:
-                                    if humidity <= 89.54:
-                                        if temp <= 108.22:
-                                            return 8.84
-                                        else:
-                                            return 0.54
-                                    else:
-                                        if light <= 38102.35:
-                                            return 13.85
-                                        else:
-                                            return 32.03
-                                else:
-                                    if temp <= 109.11:
-                                        if humidity <= 90.13:
-                                            return 34.67
-                                        else:
-                                            return 20.79
-                                    else:
-                                        if humidity <= 89.76:
-                                            return 3.61
-                                        else:
-                                            return 17.72
-                            else:
-                                if temp <= 106.54:
-                                    if light <= 32724.23:
-                                        if plant <= 185.0:
-                                            return 18.12
-                                        else:
-                                            return 4.18
-                                    else:
-                                        if humidity <= 94.32:
-                                            return 0.24
-                                        else:
-                                            return 5.54
-                                else:
-                                    if light <= 34417.48:
-                                        if light <= 34315.47:
-                                            return 4.26
-                                        else:
-                                            return 24.96
-                                    else:
-                                        if humidity <= 92.36:
-                                            return 3.84
-                                        else:
-                                            return 0.15
-    else:
-        if humidity <= 21.25:
-            if temp <= 93.41:
-                if temp <= 49.55:
-                    if humidity <= 12.69:
-                        if plant <= 3.5:
-                            if light <= 49908.13:
-                                if humidity <= 4.96:
-                                    return 46.09
-                                else:
-                                    if light <= 45069.49:
-                                        return 62.01
-                                    else:
-                                        return 65.42
-                            else:
-                                return 0.0
-                        else:
-                            if temp <= 35.11:
-                                if temp <= 30.44:
-                                    if plant <= 62.0:
-                                        return 34.17
-                                    else:
-                                        return 0.0
-                                else:
-                                    if light <= 48781.49:
-                                        if light <= 43844.12:
-                                            return 0.1
-                                        else:
-                                            return 6.39
-                                    else:
-                                        if light <= 64919.53:
-                                            return 0.12
-                                        else:
-                                            return 8.16
-                            else:
-                                if humidity <= 7.5:
-                                    if light <= 50457.88:
-                                        if plant <= 182.0:
-                                            return 10.31
-                                        else:
-                                            return 32.99
-                                    else:
-                                        if light <= 65057.55:
-                                            return 3.29
-                                        else:
-                                            return 15.02
-                                else:
-                                    if plant <= 117.5:
-                                        if plant <= 112.5:
-                                            return 12.1
-                                        else:
-                                            return 42.38
-                                    else:
-                                        if humidity <= 8.49:
-                                            return 24.04
-                                        else:
-                                            return 5.59
-                    else:
-                        if light <= 47926.46:
-                            if plant <= 129.0:
-                                if plant <= 5.5:
-                                    if temp <= 37.16:
-                                        return 55.88
-                                    else:
-                                        return 70.25
-                                else:
-                                    if light <= 45820.88:
-                                        if temp <= 41.59:
-                                            return 15.96
-                                        else:
-                                            return 32.11
-                                    else:
-                                        if humidity <= 19.91:
-                                            return 47.14
-                                        else:
-                                            return 28.42
-                            else:
-                                if temp <= 46.31:
-                                    if plant <= 181.0:
-                                        if temp <= 45.7:
-                                            return 6.42
-                                        else:
-                                            return 26.14
-                                    else:
-                                        if plant <= 191.5:
-                                            return 22.16
-                                        else:
-                                            return 15.29
-                                else:
-                                    return 53.96
-                        else:
-                            if temp <= 46.63:
-                                if plant <= 196.5:
-                                    if light <= 64300.83:
-                                        if light <= 59117.33:
-                                            return 11.06
-                                        else:
-                                            return 3.86
-                                    else:
-                                        if humidity <= 15.66:
-                                            return 56.49
-                                        else:
-                                            return 14.75
-                                else:
-                                    return 56.23
-                            else:
-                                if temp <= 47.29:
-                                    if light <= 52419.85:
-                                        if temp <= 46.97:
-                                            return 10.23
-                                        else:
-                                            return 16.47
-                                    else:
-                                        if light <= 56339.25:
-                                            return 47.04
-                                        else:
-                                            return 76.67
-                                else:
-                                    if plant <= 83.5:
-                                        if plant <= 42.5:
-                                            return 7.24
-                                        else:
-                                            return 31.24
-                                    else:
-                                        if plant <= 121.0:
+                                        if humidity <= 85.32:
                                             return 0.0
                                         else:
-                                            return 13.15
+                                            return 1.24
                 else:
-                    if humidity <= 9.44:
-                        if light <= 53458.06:
-                            if temp <= 84.61:
-                                if humidity <= 3.51:
-                                    if light <= 43293.21:
-                                        if plant <= 126.0:
-                                            return 53.02
+                    if temp <= 92.72:
+                        if temp <= 46.27:
+                            if plant <= 179.5:
+                                if temp <= 40.57:
+                                    if humidity <= 94.61:
+                                        if temp <= 39.46:
+                                            return 1.92
                                         else:
-                                            return 13.33
+                                            return 6.54
                                     else:
-                                        if temp <= 84.44:
-                                            return 14.71
+                                        if humidity <= 99.87:
+                                            return 0.51
                                         else:
-                                            return 56.69
+                                            return 3.57
                                 else:
-                                    if temp <= 56.74:
-                                        if humidity <= 3.95:
-                                            return 61.22
-                                        else:
-                                            return 16.11
+                                    if temp <= 40.76:
+                                        return 31.02
                                     else:
-                                        if plant <= 149.0:
-                                            return 27.32
-                                        else:
-                                            return 36.66
-                            else:
-                                if temp <= 86.86:
-                                    if humidity <= 8.83:
-                                        if light <= 47339.51:
-                                            return 1.87
-                                        else:
-                                            return 0.43
-                                    else:
-                                        return 17.38
-                                else:
-                                    if plant <= 63.0:
-                                        if plant <= 7.5:
-                                            return 23.04
-                                        else:
-                                            return 1.16
-                                    else:
-                                        if light <= 42899.7:
-                                            return 32.21
-                                        else:
-                                            return 18.04
-                        else:
-                            if temp <= 76.44:
-                                if plant <= 5.0:
-                                    if plant <= 2.0:
-                                        if temp <= 71.91:
-                                            return 0.0
-                                        else:
-                                            return 35.31
-                                    else:
-                                        if light <= 57268.1:
-                                            return 71.86
-                                        else:
-                                            return 71.79
-                                else:
-                                    if plant <= 120.5:
-                                        if plant <= 113.5:
-                                            return 16.78
-                                        else:
-                                            return 39.91
-                                    else:
-                                        if light <= 62570.18:
-                                            return 13.5
-                                        else:
-                                            return 2.72
-                            else:
-                                if humidity <= 5.87:
-                                    if temp <= 83.14:
-                                        if temp <= 80.98:
-                                            return 2.49
-                                        else:
-                                            return 17.7
-                                    else:
-                                        if humidity <= 2.89:
-                                            return 4.77
-                                        else:
-                                            return 0.23
-                                else:
-                                    if humidity <= 6.77:
-                                        if light <= 58665.11:
-                                            return 34.62
-                                        else:
-                                            return 12.7
-                                    else:
-                                        if plant <= 26.5:
-                                            return 15.91
-                                        else:
-                                            return 5.3
-                    else:
-                        if light <= 47737.88:
-                            if plant <= 33.5:
-                                if plant <= 31.5:
-                                    if humidity <= 16.57:
-                                        if temp <= 63.25:
-                                            return 51.9
-                                        else:
-                                            return 38.78
-                                    else:
-                                        if humidity <= 18.18:
-                                            return 15.72
-                                        else:
-                                            return 41.14
-                                else:
-                                    if humidity <= 18.41:
-                                        if temp <= 74.52:
-                                            return 80.34
-                                        else:
-                                            return 74.55
-                                    else:
-                                        if humidity <= 19.46:
-                                            return 88.11
-                                        else:
-                                            return 90.0
-                            else:
-                                if humidity <= 14.95:
-                                    if humidity <= 12.24:
-                                        if plant <= 36.5:
-                                            return 1.39
-                                        else:
-                                            return 36.83
-                                    else:
-                                        if light <= 41851.74:
-                                            return 51.1
-                                        else:
-                                            return 25.1
-                                else:
-                                    if temp <= 86.0:
-                                        if plant <= 181.5:
-                                            return 42.96
-                                        else:
-                                            return 17.67
-                                    else:
-                                        if light <= 47327.35:
-                                            return 25.31
-                                        else:
-                                            return 47.65
-                        else:
-                            if light <= 56420.35:
-                                if plant <= 120.5:
-                                    if plant <= 119.5:
-                                        if humidity <= 16.42:
-                                            return 28.42
-                                        else:
-                                            return 40.45
-                                    else:
-                                        if light <= 54376.6:
-                                            return 77.65
-                                        else:
-                                            return 90.0
-                                else:
-                                    if temp <= 82.22:
-                                        if temp <= 55.91:
-                                            return 15.3
-                                        else:
-                                            return 31.19
-                                    else:
-                                        if plant <= 168.0:
-                                            return 12.47
-                                        else:
-                                            return 27.25
-                            else:
-                                if temp <= 54.45:
-                                    if plant <= 31.5:
-                                        if plant <= 21.5:
-                                            return 21.32
-                                        else:
-                                            return 55.3
-                                    else:
-                                        if humidity <= 19.33:
-                                            return 6.41
-                                        else:
-                                            return 16.06
-                                else:
-                                    if temp <= 83.13:
-                                        if light <= 65485.79:
-                                            return 25.36
-                                        else:
-                                            return 57.85
-                                    else:
-                                        if humidity <= 9.69:
-                                            return 64.73
-                                        else:
-                                            return 14.15
-            else:
-                if humidity <= 6.95:
-                    if plant <= 196.5:
-                        if plant <= 117.0:
-                            if plant <= 113.0:
-                                if light <= 47577.13:
-                                    if humidity <= 1.09:
-                                        if temp <= 96.49:
-                                            return 0.0
-                                        else:
-                                            return 31.27
-                                    else:
-                                        if light <= 46095.1:
-                                            return 0.85
-                                        else:
-                                            return 15.15
-                                else:
-                                    if plant <= 98.5:
-                                        if plant <= 29.5:
-                                            return 3.93
-                                        else:
-                                            return 0.0
-                                    else:
-                                        if humidity <= 3.47:
-                                            return 0.0
-                                        else:
-                                            return 12.31
-                            else:
-                                if plant <= 115.5:
-                                    return 17.85
-                                else:
-                                    return 25.15
-                        else:
-                            if temp <= 103.45:
-                                return 0.0
-                            else:
-                                if temp <= 104.98:
-                                    if temp <= 103.86:
-                                        if humidity <= 2.4:
-                                            return 2.32
-                                        else:
-                                            return 0.0
-                                    else:
-                                        if light <= 48033.79:
-                                            return 7.98
-                                        else:
-                                            return 9.26
-                                else:
-                                    if plant <= 178.0:
-                                        return 0.0
-                                    else:
-                                        if light <= 44243.4:
-                                            return 0.0
-                                        else:
-                                            return 1.37
-                    else:
-                        if plant <= 198.0:
-                            return 39.22
-                        else:
-                            if humidity <= 1.8:
-                                return 0.0
-                            else:
-                                return 6.94
-                else:
-                    if temp <= 103.56:
-                        if temp <= 103.47:
-                            if plant <= 196.0:
-                                if light <= 55487.1:
-                                    if light <= 55088.54:
-                                        if plant <= 135.5:
-                                            return 15.17
-                                        else:
-                                            return 7.58
-                                    else:
-                                        if light <= 55251.32:
-                                            return 60.19
-                                        else:
-                                            return 33.73
-                                else:
-                                    if humidity <= 19.79:
-                                        if plant <= 175.0:
-                                            return 3.46
-                                        else:
-                                            return 26.07
-                                    else:
-                                        if humidity <= 20.03:
-                                            return 46.19
-                                        else:
-                                            return 11.76
-                            else:
-                                if plant <= 197.5:
-                                    if temp <= 97.88:
-                                        return 49.24
-                                    else:
-                                        return 69.02
-                                else:
-                                    if humidity <= 19.13:
-                                        return 0.0
-                                    else:
-                                        return 14.1
-                        else:
-                            return 57.83
-                    else:
-                        if light <= 49631.81:
-                            if light <= 44540.89:
-                                if plant <= 28.0:
-                                    if plant <= 20.0:
-                                        return 5.11
-                                    else:
-                                        return 7.58
-                                else:
-                                    if light <= 44043.79:
-                                        if plant <= 182.5:
-                                            return 0.08
-                                        else:
-                                            return 0.99
-                                    else:
-                                        return 4.77
-                            else:
-                                if light <= 45057.71:
-                                    if humidity <= 15.67:
-                                        if plant <= 155.5:
-                                            return 24.62
-                                        else:
-                                            return 15.97
-                                    else:
-                                        return 53.29
-                                else:
-                                    if temp <= 105.63:
-                                        if plant <= 87.5:
-                                            return 24.55
+                                        if humidity <= 92.9:
+                                            return 9.59
                                         else:
                                             return 2.23
-                                    else:
-                                        if light <= 49107.69:
-                                            return 2.03
-                                        else:
-                                            return 22.9
-                        else:
-                            if plant <= 180.0:
-                                if humidity <= 8.53:
-                                    if temp <= 106.32:
-                                        return 12.93
-                                    else:
-                                        return 0.0
-                                else:
-                                    if plant <= 7.0:
-                                        return 8.65
-                                    else:
-                                        if light <= 55079.42:
-                                            return 1.89
-                                        else:
-                                            return 0.27
                             else:
-                                if plant <= 190.5:
-                                    if temp <= 105.14:
-                                        return 20.13
+                                if temp <= 41.36:
+                                    if temp <= 38.82:
+                                        if light <= 20369.02:
+                                            return 0.0
+                                        else:
+                                            return 1.92
                                     else:
-                                        return 12.34
+                                        if temp <= 40.8:
+                                            return 8.84
+                                        else:
+                                            return 11.36
                                 else:
-                                    if light <= 56206.21:
-                                        return 0.0
+                                    if humidity <= 95.41:
+                                        if temp <= 45.48:
+                                            return 11.36
+                                        else:
+                                            return 33.53
                                     else:
-                                        return 6.34
-        else:
-            if humidity <= 78.31:
-                if temp <= 94.43:
-                    if temp <= 44.8:
-                        if light <= 50197.86:
-                            if humidity <= 26.9:
-                                if light <= 45150.29:
-                                    if humidity <= 26.79:
-                                        if humidity <= 21.94:
-                                            return 8.67
+                                        if plant <= 187.0:
+                                            return 60.64
                                         else:
-                                            return 38.86
-                                    else:
-                                        return 0.0
-                                else:
-                                    if humidity <= 21.5:
-                                        if temp <= 38.0:
-                                            return 30.95
-                                        else:
-                                            return 68.34
-                                    else:
-                                        if plant <= 165.0:
-                                            return 10.47
-                                        else:
-                                            return 28.25
-                            else:
-                                if temp <= 37.19:
-                                    if humidity <= 67.72:
-                                        if humidity <= 37.03:
-                                            return 27.46
-                                        else:
-                                            return 37.51
-                                    else:
-                                        if light <= 41674.35:
-                                            return 7.84
-                                        else:
-                                            return 25.84
-                                else:
-                                    if humidity <= 71.31:
-                                        if humidity <= 38.56:
-                                            return 37.45
-                                        else:
-                                            return 47.51
-                                    else:
-                                        if temp <= 41.35:
-                                            return 30.55
-                                        else:
-                                            return 37.03
+                                            return 60.69
                         else:
-                            if humidity <= 32.2:
-                                if plant <= 19.0:
-                                    if temp <= 42.38:
-                                        if light <= 64932.96:
-                                            return 2.88
+                            if light <= 21730.42:
+                                if plant <= 37.5:
+                                    if plant <= 1.5:
+                                        if temp <= 68.54:
+                                            return 64.21
                                         else:
-                                            return 8.74
+                                            return 73.77
                                     else:
-                                        return 12.21
+                                        if plant <= 8.5:
+                                            return 9.93
+                                        else:
+                                            return 39.62
                                 else:
-                                    if plant <= 184.5:
-                                        if humidity <= 24.63:
+                                    if plant <= 82.0:
+                                        if plant <= 74.5:
+                                            return 7.23
+                                        else:
+                                            return 17.44
+                                    else:
+                                        if plant <= 90.5:
+                                            return 51.14
+                                        else:
+                                            return 26.59
+                            else:
+                                if humidity <= 91.0:
+                                    if plant <= 91.5:
+                                        if plant <= 63.5:
+                                            return 27.88
+                                        else:
+                                            return 72.63
+                                    else:
+                                        if temp <= 92.01:
+                                            return 7.64
+                                        else:
+                                            return 35.49
+                                else:
+                                    if plant <= 1.5:
+                                        if light <= 24747.23:
+                                            return 45.6
+                                        else:
+                                            return 52.9
+                                    else:
+                                        if light <= 23652.89:
+                                            return 17.58
+                                        else:
                                             return 8.35
-                                        else:
-                                            return 18.44
-                                    else:
-                                        if humidity <= 23.97:
-                                            return 56.24
-                                        else:
-                                            return 18.12
-                            else:
-                                if temp <= 37.66:
-                                    if humidity <= 65.22:
-                                        if plant <= 68.5:
-                                            return 19.2
-                                        else:
-                                            return 27.99
-                                    else:
-                                        if light <= 57598.88:
-                                            return 19.81
-                                        else:
-                                            return 11.99
-                                else:
-                                    if light <= 58021.22:
-                                        if light <= 57901.93:
-                                            return 35.52
-                                        else:
-                                            return 73.56
-                                    else:
-                                        if humidity <= 71.48:
-                                            return 28.59
-                                        else:
-                                            return 18.81
                     else:
-                        if light <= 56032.01:
-                            if humidity <= 28.09:
-                                if light <= 46314.81:
-                                    if plant <= 29.0:
-                                        if plant <= 7.0:
-                                            return 73.85
-                                        else:
-                                            return 25.29
-                                    else:
-                                        if light <= 44938.15:
-                                            return 49.43
-                                        else:
-                                            return 59.45
+                        if temp <= 97.18:
+                            if temp <= 97.14:
+                                if light <= 6544.65:
+                                    return 61.12
                                 else:
-                                    if temp <= 84.04:
-                                        if light <= 56006.95:
-                                            return 39.88
+                                    if humidity <= 93.73:
+                                        if plant <= 178.0:
+                                            return 3.84
                                         else:
-                                            return 80.01
+                                            return 13.01
                                     else:
-                                        if temp <= 84.88:
-                                            return 14.69
+                                        if temp <= 96.19:
+                                            return 0.71
                                         else:
-                                            return 30.46
+                                            return 3.52
                             else:
-                                if temp <= 83.99:
-                                    if temp <= 50.6:
-                                        if humidity <= 74.71:
-                                            return 51.1
-                                        else:
-                                            return 34.72
-                                    else:
-                                        if light <= 47117.86:
-                                            return 66.65
-                                        else:
-                                            return 58.23
-                                else:
-                                    if humidity <= 66.88:
-                                        if humidity <= 39.39:
-                                            return 46.07
-                                        else:
-                                            return 53.92
-                                    else:
-                                        if temp <= 89.53:
-                                            return 48.96
-                                        else:
-                                            return 33.44
+                                return 65.2
                         else:
-                            if humidity <= 30.71:
-                                if plant <= 120.5:
-                                    if light <= 62046.58:
-                                        if plant <= 4.0:
-                                            return 82.06
-                                        else:
-                                            return 40.74
+                            if light <= 14389.52:
+                                if light <= 12227.52:
+                                    if plant <= 1.5:
+                                        return 6.78
                                     else:
-                                        if plant <= 106.5:
-                                            return 23.59
+                                        if humidity <= 94.7:
+                                            return 0.44
                                         else:
-                                            return 60.17
+                                            return 1.82
                                 else:
-                                    if temp <= 83.9:
-                                        if temp <= 57.16:
-                                            return 21.72
-                                        else:
-                                            return 35.2
+                                    if light <= 12457.85:
+                                        return 59.78
                                     else:
-                                        if light <= 61358.07:
-                                            return 4.86
+                                        if plant <= 22.5:
+                                            return 12.69
                                         else:
-                                            return 21.67
+                                            return 2.74
                             else:
-                                if temp <= 87.06:
-                                    if temp <= 52.0:
-                                        if light <= 60534.93:
-                                            return 42.69
+                                if plant <= 187.0:
+                                    if humidity <= 94.08:
+                                        if humidity <= 93.04:
+                                            return 1.04
                                         else:
-                                            return 35.16
+                                            return 8.09
                                     else:
-                                        if humidity <= 66.3:
-                                            return 51.96
+                                        if temp <= 103.96:
+                                            return 0.02
                                         else:
-                                            return 43.29
+                                            return 0.31
                                 else:
-                                    if humidity <= 73.68:
-                                        if plant <= 167.0:
-                                            return 33.04
+                                    if plant <= 193.5:
+                                        if temp <= 101.69:
+                                            return 14.24
                                         else:
-                                            return 44.41
+                                            return 2.84
                                     else:
-                                        if plant <= 49.5:
-                                            return 34.44
+                                        return 0.0
+    else:
+        if light <= 37705.06:
+            if humidity <= 80.57:
+                if humidity <= 19.74:
+                    if temp <= 41.93:
+                        if humidity <= 0.01:
+                            return 55.91
+                        else:
+                            if humidity <= 12.98:
+                                if plant <= 196.5:
+                                    if light <= 27974.56:
+                                        return 10.35
+                                    else:
+                                        if temp <= 32.06:
+                                            return 4.48
                                         else:
-                                            return 16.3
+                                            return 0.99
+                                else:
+                                    return 14.33
+                            else:
+                                if humidity <= 13.01:
+                                    return 58.51
+                                else:
+                                    if temp <= 41.33:
+                                        if humidity <= 19.52:
+                                            return 2.98
+                                        else:
+                                            return 15.53
+                                    else:
+                                        if light <= 36505.22:
+                                            return 0.0
+                                        else:
+                                            return 51.59
+                    else:
+                        if temp <= 99.48:
+                            if humidity <= 10.35:
+                                if plant <= 195.0:
+                                    if light <= 35321.97:
+                                        if plant <= 121.0:
+                                            return 11.22
+                                        else:
+                                            return 2.55
+                                    else:
+                                        if plant <= 184.0:
+                                            return 17.55
+                                        else:
+                                            return 51.15
+                                else:
+                                    if plant <= 197.5:
+                                        if humidity <= 3.02:
+                                            return 68.03
+                                        else:
+                                            return 71.99
+                                    else:
+                                        if plant <= 198.5:
+                                            return 0.0
+                                        else:
+                                            return 2.89
+                            else:
+                                if humidity <= 10.42:
+                                    if temp <= 86.78:
+                                        if light <= 30341.31:
+                                            return 64.3
+                                        else:
+                                            return 63.01
+                                    else:
+                                        return 57.24
+                                else:
+                                    if temp <= 98.52:
+                                        if temp <= 90.86:
+                                            return 21.12
+                                        else:
+                                            return 9.56
+                                    else:
+                                        if light <= 33425.85:
+                                            return 72.55
+                                        else:
+                                            return 16.01
+                        else:
+                            if light <= 28413.63:
+                                if plant <= 72.0:
+                                    return 61.18
+                                else:
+                                    if temp <= 104.19:
+                                        if light <= 28342.77:
+                                            return 3.8
+                                        else:
+                                            return 1.83
+                                    else:
+                                        return 0.0
+                            else:
+                                if humidity <= 1.77:
+                                    if plant <= 20.0:
+                                        return 0.0
+                                    else:
+                                        return 13.78
+                                else:
+                                    if humidity <= 12.04:
+                                        if light <= 30835.97:
+                                            return 1.04
+                                        else:
+                                            return 0.0
+                                    else:
+                                        if humidity <= 12.35:
+                                            return 16.45
+                                        else:
+                                            return 1.92
                 else:
-                    if light <= 52496.28:
-                        if temp <= 99.72:
-                            if humidity <= 32.75:
-                                if temp <= 97.14:
-                                    if plant <= 57.0:
-                                        if humidity <= 27.02:
-                                            return 6.3
+                    if temp <= 94.77:
+                        if temp <= 43.12:
+                            if temp <= 39.92:
+                                if plant <= 190.5:
+                                    if plant <= 0.5:
+                                        if temp <= 36.38:
+                                            return 22.2
                                         else:
-                                            return 27.93
+                                            return 67.47
                                     else:
-                                        if light <= 44950.15:
-                                            return 37.74
+                                        if temp <= 29.3:
+                                            return 67.05
                                         else:
-                                            return 58.35
+                                            return 10.45
                                 else:
-                                    if temp <= 99.38:
-                                        if plant <= 181.0:
-                                            return 17.75
+                                    if plant <= 191.5:
+                                        if humidity <= 57.52:
+                                            return 70.21
                                         else:
-                                            return 68.4
+                                            return 40.19
                                     else:
-                                        if humidity <= 29.65:
-                                            return 75.79
+                                        if light <= 29666.7:
+                                            return 7.85
                                         else:
-                                            return 34.06
+                                            return 0.89
                             else:
-                                if humidity <= 74.98:
-                                    if light <= 44244.86:
-                                        if temp <= 94.96:
-                                            return 64.85
+                                if light <= 30005.91:
+                                    if temp <= 40.31:
+                                        if humidity <= 44.33:
+                                            return 77.11
+                                        else:
+                                            return 71.97
+                                    else:
+                                        if temp <= 40.74:
+                                            return 26.0
+                                        else:
+                                            return 43.5
+                                else:
+                                    if humidity <= 33.87:
+                                        if temp <= 40.02:
+                                            return 72.19
+                                        else:
+                                            return 8.32
+                                    else:
+                                        if temp <= 41.8:
+                                            return 42.89
+                                        else:
+                                            return 16.46
+                        else:
+                            if humidity <= 61.78:
+                                if light <= 34577.84:
+                                    if temp <= 89.76:
+                                        if temp <= 57.83:
+                                            return 44.84
+                                        else:
+                                            return 54.33
+                                    else:
+                                        if plant <= 36.5:
+                                            return 50.63
+                                        else:
+                                            return 35.44
+                                else:
+                                    if plant <= 121.0:
+                                        if temp <= 59.9:
+                                            return 33.22
+                                        else:
+                                            return 51.19
+                                    else:
+                                        if humidity <= 32.19:
+                                            return 22.28
+                                        else:
+                                            return 35.95
+                            else:
+                                if light <= 30764.88:
+                                    if humidity <= 76.68:
+                                        if light <= 29011.13:
+                                            return 52.29
+                                        else:
+                                            return 42.34
+                                    else:
+                                        if light <= 29367.48:
+                                            return 41.17
+                                        else:
+                                            return 15.54
+                                else:
+                                    if plant <= 7.5:
+                                        if light <= 35458.92:
+                                            return 9.28
+                                        else:
+                                            return 0.0
+                                    else:
+                                        if plant <= 25.5:
+                                            return 41.03
+                                        else:
+                                            return 29.83
+                    else:
+                        if temp <= 100.06:
+                            if humidity <= 69.82:
+                                if light <= 36635.01:
+                                    if humidity <= 24.44:
+                                        if light <= 33342.94:
+                                            return 4.03
+                                        else:
+                                            return 25.12
+                                    else:
+                                        if temp <= 100.01:
+                                            return 28.24
+                                        else:
+                                            return 80.07
+                                else:
+                                    if humidity <= 45.72:
+                                        if temp <= 99.33:
+                                            return 0.49
+                                        else:
+                                            return 4.75
+                                    else:
+                                        if light <= 37225.82:
+                                            return 64.06
+                                        else:
+                                            return 0.0
+                            else:
+                                if plant <= 110.5:
+                                    if temp <= 99.66:
+                                        if humidity <= 73.86:
+                                            return 4.57
+                                        else:
+                                            return 0.71
+                                    else:
+                                        return 15.73
+                                else:
+                                    if plant <= 119.0:
+                                        return 63.57
+                                    else:
+                                        if temp <= 98.35:
+                                            return 4.95
+                                        else:
+                                            return 27.1
+                        else:
+                            if temp <= 104.77:
+                                if temp <= 104.71:
+                                    if light <= 28617.25:
+                                        if light <= 28514.77:
+                                            return 16.22
                                         else:
                                             return 46.57
                                     else:
-                                        if temp <= 95.65:
-                                            return 35.93
+                                        if humidity <= 35.88:
+                                            return 4.12
                                         else:
-                                            return 43.31
+                                            return 10.03
                                 else:
-                                    if temp <= 98.4:
-                                        if temp <= 97.34:
-                                            return 32.99
-                                        else:
-                                            return 24.87
+                                    if light <= 30058.62:
+                                        return 10.4
                                     else:
-                                        if light <= 42322.68:
-                                            return 16.78
-                                        else:
-                                            return 13.73
-                        else:
-                            if light <= 48438.25:
-                                if temp <= 107.99:
-                                    if humidity <= 66.21:
-                                        if humidity <= 22.75:
-                                            return 53.02
-                                        else:
-                                            return 33.83
-                                    else:
-                                        if temp <= 107.04:
-                                            return 28.03
-                                        else:
-                                            return 18.08
-                                else:
-                                    if humidity <= 37.21:
-                                        if light <= 44569.03:
-                                            return 19.8
-                                        else:
-                                            return 5.43
-                                    else:
-                                        if humidity <= 73.79:
-                                            return 27.23
-                                        else:
-                                            return 3.01
+                                        return 70.35
                             else:
-                                if humidity <= 33.8:
-                                    if plant <= 45.0:
-                                        if plant <= 40.0:
-                                            return 2.24
-                                        else:
-                                            return 11.26
+                                if plant <= 35.5:
+                                    if humidity <= 22.51:
+                                        return 25.11
                                     else:
-                                        if humidity <= 23.09:
-                                            return 10.97
+                                        if plant <= 34.5:
+                                            return 4.7
                                         else:
-                                            return 23.21
+                                            return 23.45
                                 else:
-                                    if humidity <= 54.39:
-                                        if temp <= 102.4:
-                                            return 41.75
+                                    if humidity <= 79.48:
+                                        if temp <= 105.27:
+                                            return 5.95
                                         else:
-                                            return 28.5
+                                            return 2.93
                                     else:
-                                        if temp <= 100.13:
-                                            return 51.5
-                                        else:
-                                            return 18.4
-                    else:
-                        if temp <= 103.56:
-                            if humidity <= 45.4:
-                                if light <= 55899.39:
-                                    if plant <= 18.0:
-                                        if temp <= 101.26:
-                                            return 0.0
-                                        else:
-                                            return 7.96
-                                    else:
-                                        if light <= 54857.42:
-                                            return 25.69
-                                        else:
-                                            return 48.95
-                                else:
-                                    if temp <= 98.27:
-                                        if plant <= 177.0:
-                                            return 24.17
-                                        else:
-                                            return 7.12
-                                    else:
-                                        if humidity <= 27.81:
-                                            return 4.62
-                                        else:
-                                            return 16.4
-                            else:
-                                if humidity <= 74.27:
-                                    if temp <= 99.77:
-                                        if temp <= 94.45:
-                                            return 13.75
-                                        else:
-                                            return 35.28
-                                    else:
-                                        if light <= 57818.7:
-                                            return 34.73
-                                        else:
-                                            return 22.37
-                                else:
-                                    if temp <= 96.21:
-                                        if humidity <= 76.76:
-                                            return 38.7
-                                        else:
-                                            return 16.51
-                                    else:
-                                        if humidity <= 75.59:
-                                            return 20.02
-                                        else:
-                                            return 10.05
-                        else:
-                            if humidity <= 31.16:
-                                if temp <= 109.69:
-                                    if plant <= 146.5:
-                                        if plant <= 98.0:
-                                            return 6.08
-                                        else:
-                                            return 17.19
-                                    else:
-                                        if light <= 53267.54:
-                                            return 6.85
-                                        else:
-                                            return 0.68
-                                else:
-                                    return 45.54
-                            else:
-                                if humidity <= 69.28:
-                                    if light <= 59573.25:
-                                        if light <= 59539.53:
-                                            return 18.97
-                                        else:
-                                            return 58.7
-                                    else:
-                                        if humidity <= 34.13:
-                                            return 24.73
-                                        else:
-                                            return 13.79
-                                else:
-                                    if temp <= 105.44:
-                                        if humidity <= 72.7:
-                                            return 23.94
-                                        else:
-                                            return 14.26
-                                    else:
-                                        if light <= 56206.31:
-                                            return 12.92
-                                        else:
-                                            return 4.75
+                                        return 16.85
             else:
-                if temp <= 93.59:
-                    if temp <= 47.52:
-                        if temp <= 40.8:
-                            if humidity <= 89.76:
-                                if light <= 53645.41:
-                                    if temp <= 35.81:
-                                        if plant <= 191.5:
-                                            return 8.52
+                if humidity <= 90.0:
+                    if light <= 31303.68:
+                        if light <= 31271.85:
+                            if temp <= 43.15:
+                                if plant <= 112.0:
+                                    if light <= 30927.27:
+                                        if temp <= 40.15:
+                                            return 0.23
                                         else:
-                                            return 24.31
+                                            return 1.39
                                     else:
-                                        if humidity <= 86.45:
-                                            return 16.62
-                                        else:
-                                            return 29.7
+                                        return 2.43
                                 else:
-                                    if temp <= 33.04:
-                                        if light <= 55232.78:
-                                            return 6.05
+                                    if plant <= 159.5:
+                                        if plant <= 143.0:
+                                            return 2.66
                                         else:
-                                            return 1.06
+                                            return 6.94
                                     else:
-                                        if humidity <= 79.48:
-                                            return 26.11
-                                        else:
-                                            return 7.59
+                                        return 0.0
                             else:
-                                if light <= 45523.43:
-                                    if light <= 45037.29:
-                                        if temp <= 38.9:
-                                            return 7.14
+                                if temp <= 95.98:
+                                    if plant <= 173.5:
+                                        if temp <= 48.63:
+                                            return 38.46
                                         else:
-                                            return 18.25
+                                            return 17.02
                                     else:
-                                        return 29.51
+                                        if humidity <= 86.47:
+                                            return 33.4
+                                        else:
+                                            return 63.87
                                 else:
-                                    if temp <= 37.8:
-                                        if light <= 52771.99:
-                                            return 2.78
+                                    if light <= 29725.03:
+                                        if temp <= 104.4:
+                                            return 4.51
                                         else:
-                                            return 0.58
+                                            return 0.0
                                     else:
-                                        if temp <= 38.64:
-                                            return 10.72
+                                        if temp <= 96.09:
+                                            return 5.97
                                         else:
-                                            return 2.67
+                                            return 0.11
                         else:
-                            if humidity <= 90.49:
-                                if light <= 58778.12:
-                                    if light <= 44951.29:
-                                        if humidity <= 80.11:
-                                            return 58.07
-                                        else:
-                                            return 30.78
-                                    else:
-                                        if temp <= 45.68:
-                                            return 20.47
-                                        else:
-                                            return 28.13
-                                else:
-                                    if humidity <= 83.31:
-                                        if temp <= 46.8:
-                                            return 16.66
-                                        else:
-                                            return 28.41
-                                    else:
-                                        if light <= 61807.81:
-                                            return 10.37
-                                        else:
-                                            return 3.69
+                            if plant <= 123.0:
+                                return 79.27
                             else:
-                                if light <= 47972.68:
-                                    if humidity <= 97.4:
-                                        if temp <= 43.9:
-                                            return 20.08
-                                        else:
-                                            return 9.47
-                                    else:
-                                        if humidity <= 97.52:
-                                            return 38.34
-                                        else:
-                                            return 22.97
-                                else:
-                                    if light <= 57913.16:
-                                        if temp <= 43.54:
-                                            return 4.57
-                                        else:
-                                            return 10.08
-                                    else:
-                                        if humidity <= 95.65:
-                                            return 5.49
-                                        else:
-                                            return 0.66
+                                return 68.43
                     else:
-                        if humidity <= 91.82:
-                            if light <= 55166.83:
-                                if humidity <= 83.3:
-                                    if temp <= 87.54:
-                                        if light <= 44757.82:
-                                            return 53.02
+                        if temp <= 93.0:
+                            if humidity <= 89.48:
+                                if temp <= 54.49:
+                                    if humidity <= 84.67:
+                                        if humidity <= 84.52:
+                                            return 2.86
                                         else:
-                                            return 43.63
+                                            return 52.87
                                     else:
-                                        if humidity <= 82.26:
-                                            return 36.16
+                                        if plant <= 62.5:
+                                            return 2.2
                                         else:
-                                            return 19.76
+                                            return 0.48
                                 else:
-                                    if temp <= 81.93:
-                                        if light <= 49799.48:
-                                            return 40.88
-                                        else:
-                                            return 34.39
+                                    if temp <= 55.38:
+                                        return 73.51
                                     else:
-                                        if temp <= 90.35:
-                                            return 31.71
+                                        if light <= 32725.71:
+                                            return 19.31
                                         else:
-                                            return 23.37
+                                            return 8.13
                             else:
-                                if temp <= 85.11:
-                                    if humidity <= 82.88:
+                                if humidity <= 89.56:
+                                    if humidity <= 89.52:
+                                        if humidity <= 89.5:
+                                            return 58.03
+                                        else:
+                                            return 57.99
+                                    else:
+                                        return 57.18
+                                else:
+                                    if humidity <= 89.95:
+                                        if temp <= 50.79:
+                                            return 0.0
+                                        else:
+                                            return 6.61
+                                    else:
+                                        return 47.27
+                        else:
+                            if humidity <= 84.74:
+                                if light <= 36708.64:
+                                    if light <= 31730.78:
+                                        return 6.37
+                                    else:
                                         if plant <= 196.5:
-                                            return 35.9
+                                            return 0.4
                                         else:
-                                            return 9.78
-                                    else:
-                                        if plant <= 199.5:
-                                            return 28.02
-                                        else:
-                                            return 2.34
+                                            return 3.31
                                 else:
-                                    if humidity <= 79.06:
-                                        if plant <= 70.0:
-                                            return 27.76
-                                        else:
-                                            return 50.37
+                                    if humidity <= 83.11:
+                                        return 8.79
                                     else:
-                                        if plant <= 183.5:
-                                            return 16.74
-                                        else:
-                                            return 4.2
-                        else:
-                            if light <= 50327.76:
-                                if temp <= 79.14:
-                                    if temp <= 52.89:
-                                        if plant <= 156.0:
-                                            return 26.5
-                                        else:
-                                            return 5.53
-                                    else:
-                                        if humidity <= 98.0:
-                                            return 35.2
-                                        else:
-                                            return 27.02
-                                else:
-                                    if light <= 46924.92:
-                                        if humidity <= 98.09:
-                                            return 28.21
-                                        else:
-                                            return 17.18
-                                    else:
-                                        if plant <= 52.5:
-                                            return 25.24
-                                        else:
-                                            return 16.53
+                                        return 8.46
                             else:
-                                if light <= 62118.65:
-                                    if temp <= 83.26:
-                                        if plant <= 193.5:
-                                            return 19.92
-                                        else:
-                                            return 1.57
+                                if plant <= 26.5:
+                                    if humidity <= 88.08:
+                                        return 0.0
                                     else:
-                                        if plant <= 117.0:
-                                            return 13.13
-                                        else:
-                                            return 8.53
+                                        return 2.01
                                 else:
-                                    if plant <= 24.5:
-                                        if humidity <= 93.11:
-                                            return 25.63
-                                        else:
-                                            return 10.96
+                                    if plant <= 186.5:
+                                        return 0.0
                                     else:
-                                        if temp <= 88.35:
-                                            return 8.8
+                                        if temp <= 107.3:
+                                            return 1.24
                                         else:
-                                            return 1.38
+                                            return 0.0
                 else:
-                    if light <= 53649.56:
-                        if temp <= 101.88:
-                            if humidity <= 86.56:
-                                if temp <= 96.36:
-                                    if temp <= 95.94:
-                                        if light <= 50644.38:
-                                            return 25.99
+                    if plant <= 192.5:
+                        if humidity <= 93.9:
+                            if humidity <= 93.87:
+                                if humidity <= 93.68:
+                                    if light <= 28577.56:
+                                        if light <= 28563.98:
+                                            return 7.49
                                         else:
-                                            return 33.21
+                                            return 59.09
                                     else:
-                                        if light <= 50972.47:
-                                            return 42.84
+                                        if temp <= 94.97:
+                                            return 3.61
                                         else:
-                                            return 51.6
+                                            return 0.34
                                 else:
-                                    if temp <= 101.29:
-                                        if plant <= 188.0:
-                                            return 20.2
-                                        else:
-                                            return 3.02
+                                    if humidity <= 93.69:
+                                        return 60.65
                                     else:
-                                        if plant <= 122.0:
-                                            return 32.73
+                                        if temp <= 54.37:
+                                            return 2.42
                                         else:
-                                            return 47.53
+                                            return 21.48
                             else:
-                                if temp <= 100.63:
-                                    if light <= 45732.9:
-                                        if humidity <= 91.41:
-                                            return 28.5
-                                        else:
-                                            return 14.23
-                                    else:
-                                        if temp <= 97.14:
-                                            return 7.67
-                                        else:
-                                            return 16.33
-                                else:
-                                    if light <= 48533.31:
-                                        if humidity <= 98.12:
-                                            return 4.03
-                                        else:
-                                            return 14.01
-                                    else:
-                                        return 20.05
+                                return 65.89
                         else:
-                            if humidity <= 83.51:
-                                if light <= 44111.2:
-                                    if plant <= 183.5:
-                                        if temp <= 104.41:
-                                            return 30.95
+                            if light <= 29324.43:
+                                if light <= 29150.98:
+                                    if humidity <= 96.82:
+                                        if humidity <= 95.7:
+                                            return 1.4
                                         else:
-                                            return 26.32
+                                            return 6.82
                                     else:
-                                        if light <= 41558.12:
-                                            return 13.32
+                                        if light <= 28244.79:
+                                            return 3.04
                                         else:
-                                            return 21.39
+                                            return 0.27
                                 else:
-                                    if plant <= 128.5:
-                                        if light <= 52324.09:
-                                            return 14.73
-                                        else:
-                                            return 29.49
+                                    if light <= 29168.91:
+                                        return 59.74
                                     else:
-                                        if plant <= 190.0:
-                                            return 7.46
+                                        if light <= 29209.53:
+                                            return 0.79
                                         else:
-                                            return 2.09
+                                            return 25.97
                             else:
-                                if humidity <= 92.28:
-                                    if humidity <= 91.65:
-                                        if plant <= 164.0:
-                                            return 6.81
+                                if humidity <= 99.78:
+                                    if humidity <= 95.52:
+                                        if humidity <= 95.35:
+                                            return 0.7
                                         else:
-                                            return 0.0
+                                            return 18.31
                                     else:
-                                        if temp <= 107.09:
-                                            return 18.04
+                                        if plant <= 31.5:
+                                            return 1.73
                                         else:
-                                            return 9.45
+                                            return 0.35
                                 else:
-                                    if temp <= 105.83:
-                                        if light <= 42517.81:
-                                            return 8.65
+                                    if light <= 36348.75:
+                                        if light <= 35866.67:
+                                            return 0.19
                                         else:
-                                            return 2.34
+                                            return 1.68
                                     else:
-                                        if light <= 41583.46:
-                                            return 1.81
-                                        else:
-                                            return 0.0
+                                        return 56.11
                     else:
-                        if humidity <= 88.94:
-                            if temp <= 100.0:
-                                if temp <= 99.6:
-                                    if temp <= 95.54:
-                                        if humidity <= 79.97:
-                                            return 5.89
-                                        else:
-                                            return 17.09
-                                    else:
-                                        if light <= 56564.55:
-                                            return 13.86
-                                        else:
-                                            return 4.91
+                        if plant <= 193.5:
+                            if temp <= 92.82:
+                                if light <= 28789.4:
+                                    return 14.3
                                 else:
-                                    if temp <= 99.77:
-                                        if light <= 58515.7:
-                                            return 18.98
+                                    if light <= 33315.83:
+                                        if light <= 29898.08:
+                                            return 73.19
                                         else:
-                                            return 26.03
+                                            return 62.42
                                     else:
-                                        return 9.36
+                                        if humidity <= 92.07:
+                                            return 16.84
+                                        else:
+                                            return 58.16
                             else:
-                                if light <= 58525.87:
-                                    if humidity <= 83.31:
-                                        if humidity <= 82.13:
-                                            return 8.67
+                                if light <= 34749.49:
+                                    return 10.08
+                                else:
+                                    return 9.23
+                        else:
+                            if light <= 28144.92:
+                                return 13.33
+                            else:
+                                if light <= 28492.89:
+                                    return 0.17
+                                else:
+                                    return 0.0
+        else:
+            if humidity <= 66.23:
+                if plant <= 35.5:
+                    if plant <= 28.5:
+                        if plant <= 3.5:
+                            if plant <= 2.5:
+                                if plant <= 0.5:
+                                    if humidity <= 28.08:
+                                        if light <= 42798.24:
+                                            return 8.19
                                         else:
-                                            return 25.56
+                                            return 0.14
                                     else:
-                                        if light <= 57872.12:
-                                            return 1.13
+                                        if temp <= 89.02:
+                                            return 14.15
+                                        else:
+                                            return 6.16
+                                else:
+                                    if light <= 38358.42:
+                                        return 0.0
+                                    else:
+                                        return 0.0
+                            else:
+                                if humidity <= 21.9:
+                                    if humidity <= 5.41:
+                                        if temp <= 62.17:
+                                            return 63.02
+                                        else:
+                                            return 69.74
+                                    else:
+                                        if light <= 45688.51:
+                                            return 24.18
+                                        else:
+                                            return 78.99
+                                else:
+                                    if humidity <= 43.98:
+                                        if light <= 43395.32:
+                                            return 84.3
+                                        else:
+                                            return 63.36
+                                    else:
+                                        if light <= 39860.45:
+                                            return 74.1
+                                        else:
+                                            return 17.68
+                        else:
+                            if humidity <= 33.45:
+                                if light <= 38527.03:
+                                    if temp <= 59.15:
+                                        if humidity <= 26.12:
+                                            return 0.0
                                         else:
                                             return 4.7
-                                else:
-                                    if light <= 64624.15:
-                                        if temp <= 107.18:
-                                            return 1.08
-                                        else:
-                                            return 0.01
                                     else:
-                                        if light <= 64707.76:
-                                            return 17.75
+                                        if plant <= 21.5:
+                                            return 11.51
                                         else:
-                                            return 1.03
-                        else:
-                            if plant <= 30.0:
-                                if plant <= 28.5:
-                                    if humidity <= 90.58:
-                                        if light <= 61074.8:
-                                            return 2.87
-                                        else:
-                                            return 12.47
-                                    else:
-                                        return 0.0
+                                            return 0.0
                                 else:
-                                    return 23.2
+                                    if humidity <= 14.9:
+                                        if light <= 38569.26:
+                                            return 1.53
+                                        else:
+                                            return 0.02
+                                    else:
+                                        if humidity <= 16.0:
+                                            return 8.35
+                                        else:
+                                            return 1.51
                             else:
-                                if light <= 64591.67:
-                                    if temp <= 105.77:
-                                        if temp <= 105.69:
-                                            return 0.44
+                                if light <= 39328.71:
+                                    if temp <= 53.5:
+                                        if plant <= 7.5:
+                                            return 11.73
                                         else:
-                                            return 13.56
+                                            return 3.6
                                     else:
-                                        return 0.0
+                                        if temp <= 88.39:
+                                            return 16.08
+                                        else:
+                                            return 4.79
                                 else:
-                                    if humidity <= 94.64:
+                                    if plant <= 17.5:
+                                        if plant <= 6.5:
+                                            return 4.44
+                                        else:
+                                            return 1.76
+                                    else:
+                                        if plant <= 21.5:
+                                            return 12.61
+                                        else:
+                                            return 3.84
+                    else:
+                        if temp <= 45.16:
+                            if humidity <= 9.72:
+                                if temp <= 41.02:
+                                    if humidity <= 5.69:
+                                        return 59.09
+                                    else:
+                                        return 66.97
+                                else:
+                                    return 17.88
+                            else:
+                                if plant <= 29.5:
+                                    if humidity <= 46.77:
+                                        if humidity <= 32.4:
+                                            return 18.71
+                                        else:
+                                            return 20.99
+                                    else:
+                                        return 16.21
+                                else:
+                                    if plant <= 31.5:
+                                        if temp <= 34.76:
+                                            return 1.11
+                                        else:
+                                            return 0.0
+                                    else:
+                                        if plant <= 32.5:
+                                            return 22.37
+                                        else:
+                                            return 6.71
+                        else:
+                            if humidity <= 10.14:
+                                if plant <= 34.5:
+                                    if light <= 38066.38:
+                                        return 20.62
+                                    else:
+                                        if temp <= 67.07:
+                                            return 7.97
+                                        else:
+                                            return 1.26
+                                else:
+                                    if light <= 43056.68:
+                                        return 64.56
+                                    else:
+                                        return 10.31
+                            else:
+                                if humidity <= 50.7:
+                                    if temp <= 105.26:
+                                        if light <= 43368.52:
+                                            return 71.13
+                                        else:
+                                            return 45.39
+                                    else:
+                                        if plant <= 33.5:
+                                            return 5.39
+                                        else:
+                                            return 0.0
+                                else:
+                                    if plant <= 34.5:
+                                        if plant <= 29.5:
+                                            return 50.2
+                                        else:
+                                            return 10.63
+                                    else:
+                                        if temp <= 82.5:
+                                            return 65.32
+                                        else:
+                                            return 18.11
+                else:
+                    if light <= 45084.37:
+                        if humidity <= 16.81:
+                            if light <= 45064.4:
+                                if plant <= 184.5:
+                                    if plant <= 121.5:
+                                        if plant <= 119.5:
+                                            return 3.12
+                                        else:
+                                            return 58.67
+                                    else:
+                                        if humidity <= 12.38:
+                                            return 0.39
+                                        else:
+                                            return 3.17
+                                else:
+                                    if plant <= 185.5:
+                                        if light <= 44734.55:
+                                            return 63.74
+                                        else:
+                                            return 21.67
+                                    else:
+                                        if temp <= 104.19:
+                                            return 0.68
+                                        else:
+                                            return 11.45
+                            else:
+                                return 56.65
+                        else:
+                            if plant <= 120.5:
+                                if plant <= 119.5:
+                                    if plant <= 60.5:
+                                        if temp <= 81.85:
+                                            return 6.03
+                                        else:
+                                            return 1.74
+                                    else:
+                                        if plant <= 62.5:
+                                            return 54.28
+                                        else:
+                                            return 11.55
+                                else:
+                                    if humidity <= 40.69:
+                                        if temp <= 60.33:
+                                            return 72.04
+                                        else:
+                                            return 85.34
+                                    else:
+                                        if humidity <= 51.42:
+                                            return 24.01
+                                        else:
+                                            return 68.35
+                            else:
+                                if plant <= 196.5:
+                                    if plant <= 167.5:
+                                        if humidity <= 35.9:
+                                            return 2.53
+                                        else:
+                                            return 5.82
+                                    else:
+                                        if plant <= 168.5:
+                                            return 41.69
+                                        else:
+                                            return 7.35
+                                else:
+                                    if plant <= 197.5:
+                                        if humidity <= 59.42:
+                                            return 58.65
+                                        else:
+                                            return 12.29
+                                    else:
+                                        if light <= 40319.34:
+                                            return 8.8
+                                        else:
+                                            return 0.52
+                    else:
+                        if humidity <= 24.55:
+                            if temp <= 70.65:
+                                if temp <= 68.57:
+                                    if temp <= 51.57:
+                                        if temp <= 46.43:
+                                            return 0.03
+                                        else:
+                                            return 1.31
+                                    else:
+                                        if light <= 46112.98:
+                                            return 5.4
+                                        else:
+                                            return 1.98
+                                else:
+                                    if temp <= 68.74:
+                                        return 68.69
+                                    else:
+                                        if plant <= 182.0:
+                                            return 1.12
+                                        else:
+                                            return 17.37
+                            else:
+                                if light <= 49463.4:
+                                    if humidity <= 16.56:
+                                        if humidity <= 13.78:
+                                            return 0.0
+                                        else:
+                                            return 0.17
+                                    else:
+                                        if humidity <= 16.69:
+                                            return 15.58
+                                        else:
+                                            return 0.72
+                                else:
+                                    if plant <= 76.5:
+                                        return 16.35
+                                    else:
+                                        if humidity <= 15.61:
+                                            return 0.47
+                                        else:
+                                            return 6.18
+                        else:
+                            if plant <= 120.5:
+                                if plant <= 119.5:
+                                    if plant <= 56.5:
+                                        if plant <= 51.5:
+                                            return 2.91
+                                        else:
+                                            return 0.0
+                                    else:
+                                        if plant <= 62.5:
+                                            return 23.8
+                                        else:
+                                            return 6.75
+                                else:
+                                    if temp <= 76.18:
+                                        if temp <= 57.03:
+                                            return 77.07
+                                        else:
+                                            return 63.67
+                                    else:
+                                        return 26.04
+                            else:
+                                if temp <= 99.71:
+                                    if temp <= 44.07:
+                                        if temp <= 31.19:
+                                            return 15.35
+                                        else:
+                                            return 0.6
+                                    else:
+                                        if plant <= 140.0:
+                                            return 1.52
+                                        else:
+                                            return 4.81
+                                else:
+                                    if plant <= 129.0:
+                                        if humidity <= 39.23:
+                                            return 0.0
+                                        else:
+                                            return 7.01
+                                    else:
+                                        if light <= 47824.07:
+                                            return 0.37
+                                        else:
+                                            return 0.0
+            else:
+                if humidity <= 73.85:
+                    if temp <= 53.28:
+                        if light <= 44250.16:
+                            if light <= 44182.14:
+                                if plant <= 88.5:
+                                    if humidity <= 69.84:
+                                        if temp <= 49.69:
+                                            return 0.0
+                                        else:
+                                            return 0.4
+                                    else:
+                                        if light <= 41508.71:
+                                            return 0.58
+                                        else:
+                                            return 4.41
+                                else:
+                                    if temp <= 51.45:
+                                        if plant <= 103.0:
+                                            return 5.93
+                                        else:
+                                            return 2.27
+                                    else:
+                                        return 10.94
+                            else:
+                                if temp <= 47.15:
+                                    return 8.72
+                                else:
+                                    return 10.98
+                        else:
+                            if humidity <= 67.11:
+                                if humidity <= 66.72:
+                                    return 0.0
+                                else:
+                                    if temp <= 47.23:
+                                        return 4.31
+                                    else:
+                                        return 6.03
+                            else:
+                                if plant <= 31.0:
+                                    if plant <= 26.0:
                                         return 0.0
                                     else:
-                                        return 13.37
+                                        return 5.73
+                                else:
+                                    if temp <= 52.41:
+                                        return 0.0
+                                    else:
+                                        if light <= 46703.23:
+                                            return 2.13
+                                        else:
+                                            return 0.0
+                    else:
+                        if temp <= 57.09:
+                            if temp <= 56.98:
+                                if light <= 47933.75:
+                                    if temp <= 53.34:
+                                        return 20.42
+                                    else:
+                                        if temp <= 55.74:
+                                            return 5.14
+                                        else:
+                                            return 11.36
+                                else:
+                                    if humidity <= 71.3:
+                                        return 59.54
+                                    else:
+                                        if temp <= 55.27:
+                                            return 0.0
+                                        else:
+                                            return 5.53
+                            else:
+                                return 72.28
+                        else:
+                            if temp <= 101.59:
+                                if plant <= 101.0:
+                                    if light <= 49030.31:
+                                        if plant <= 86.5:
+                                            return 4.87
+                                        else:
+                                            return 13.55
+                                    else:
+                                        if light <= 49415.44:
+                                            return 62.94
+                                        else:
+                                            return 3.07
+                                else:
+                                    if light <= 46780.71:
+                                        if temp <= 81.62:
+                                            return 5.9
+                                        else:
+                                            return 3.21
+                                    else:
+                                        if temp <= 67.83:
+                                            return 5.43
+                                        else:
+                                            return 0.29
+                            else:
+                                if plant <= 32.5:
+                                    if plant <= 20.0:
+                                        if temp <= 109.33:
+                                            return 0.0
+                                        else:
+                                            return 7.82
+                                    else:
+                                        if plant <= 28.5:
+                                            return 6.08
+                                        else:
+                                            return 7.59
+                                else:
+                                    if humidity <= 73.24:
+                                        if plant <= 195.5:
+                                            return 0.03
+                                        else:
+                                            return 0.59
+                                    else:
+                                        if plant <= 65.0:
+                                            return 0.0
+                                        else:
+                                            return 3.77
+                else:
+                    if humidity <= 80.64:
+                        if light <= 40790.61:
+                            if humidity <= 78.62:
+                                if light <= 39487.66:
+                                    if temp <= 52.84:
+                                        if temp <= 37.3:
+                                            return 0.36
+                                        else:
+                                            return 0.0
+                                    else:
+                                        if temp <= 59.56:
+                                            return 12.85
+                                        else:
+                                            return 1.92
+                                else:
+                                    if light <= 39526.71:
+                                        return 17.82
+                                    else:
+                                        if plant <= 77.0:
+                                            return 0.58
+                                        else:
+                                            return 6.55
+                            else:
+                                if light <= 38710.09:
+                                    if light <= 38569.43:
+                                        if plant <= 95.0:
+                                            return 9.11
+                                        else:
+                                            return 2.41
+                                    else:
+                                        return 67.01
+                                else:
+                                    if humidity <= 79.05:
+                                        if temp <= 60.79:
+                                            return 15.0
+                                        else:
+                                            return 20.63
+                                    else:
+                                        if humidity <= 80.01:
+                                            return 0.75
+                                        else:
+                                            return 6.2
+                        else:
+                            if light <= 45284.37:
+                                if temp <= 89.51:
+                                    if temp <= 55.11:
+                                        if light <= 41860.28:
+                                            return 2.22
+                                        else:
+                                            return 0.4
+                                    else:
+                                        if temp <= 60.58:
+                                            return 6.76
+                                        else:
+                                            return 2.64
+                                else:
+                                    if plant <= 74.0:
+                                        if plant <= 23.5:
+                                            return 0.0
+                                        else:
+                                            return 2.98
+                                    else:
+                                        if light <= 41217.95:
+                                            return 0.36
+                                        else:
+                                            return 0.0
+                            else:
+                                if humidity <= 76.46:
+                                    if humidity <= 76.36:
+                                        if light <= 48346.89:
+                                            return 0.48
+                                        else:
+                                            return 2.67
+                                    else:
+                                        if humidity <= 76.37:
+                                            return 12.56
+                                        else:
+                                            return 3.66
+                                else:
+                                    if plant <= 8.5:
+                                        return 4.27
+                                    else:
+                                        if humidity <= 79.5:
+                                            return 0.1
+                                        else:
+                                            return 0.62
+                    else:
+                        if light <= 43233.78:
+                            if humidity <= 87.11:
+                                if humidity <= 87.0:
+                                    if temp <= 84.46:
+                                        if temp <= 62.61:
+                                            return 1.2
+                                        else:
+                                            return 4.09
+                                    else:
+                                        if light <= 43076.37:
+                                            return 0.01
+                                        else:
+                                            return 5.2
+                                else:
+                                    return 15.99
+                            else:
+                                if plant <= 192.5:
+                                    if temp <= 54.6:
+                                        if humidity <= 87.59:
+                                            return 0.15
+                                        else:
+                                            return 0.0
+                                    else:
+                                        if temp <= 54.65:
+                                            return 7.3
+                                        else:
+                                            return 0.6
+                                else:
+                                    if plant <= 194.0:
+                                        if light <= 42954.68:
+                                            return 5.85
+                                        else:
+                                            return 12.58
+                                    else:
+                                        return 0.0
+                        else:
+                            if humidity <= 85.38:
+                                if humidity <= 85.36:
+                                    if plant <= 69.0:
+                                        if humidity <= 84.66:
+                                            return 0.01
+                                        else:
+                                            return 0.38
+                                    else:
+                                        if plant <= 70.5:
+                                            return 5.4
+                                        else:
+                                            return 0.59
+                                else:
+                                    return 6.09
+                            else:
+                                if plant <= 87.5:
+                                    if plant <= 86.5:
+                                        if humidity <= 87.4:
+                                            return 0.41
+                                        else:
+                                            return 0.07
+                                    else:
+                                        if light <= 48253.01:
+                                            return 3.62
+                                        else:
+                                            return 5.92
+                                else:
+                                    if humidity <= 89.95:
+                                        if humidity <= 89.82:
+                                            return 0.02
+                                        else:
+                                            return 3.17
+                                    else:
+                                        return 0.0
