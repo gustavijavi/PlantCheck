@@ -1,4 +1,12 @@
-#classes
+def get(): #returns temp, humidity, light
+    temperature_c = dht_device.temperature
+    humidity = dht_device.humidity
+    light = photocell.value
+    # Convert to Fahrenheit
+    temperature_f = temperature_c * (9 / 5) + 32
+    return temperature_f,humidity,light
+
+
 class Plant:
     def __init__(self, name, hum, temp):
         self.name = name
@@ -53,6 +61,10 @@ lcd_columns = 16
 lcd_rows = 2
 lcd = character_lcd.Character_LCD_Mono(lcd_rs, lcd_en, lcd_d4, lcd_d5, lcd_d6, lcd_d7, lcd_columns, lcd_rows,lcd_backlight)
 # lcd.message=flower.getName()
+def Display(flower,score):
+    lcd.message(flower,1)
+    lcd.message(score,2)
+
 
 #HUMDITY& TEMP& LIGHT
 import time
@@ -64,14 +76,7 @@ dht_device = adafruit_dht.DHT22(board.D8)
 
 while True:
     try:
-        # Print the values to the serial port
-        temperature_c = dht_device.temperature
-        humidity = dht_device.humidity
-        val = photocell.value
-        # Convert to Fahrenheit
-        temperature_f = temperature_c * (9 / 5) + 32
-
-        # print(f"Temp: {temperature_f:.1f}F / {temperature_c:.1f}C  Humidity: {humidity:.1f}%")
+        temp, humid, light=get()
 
     except RuntimeError as e:
         # Reading a sensor is guaranteed to fail once in a while, retry
@@ -80,3 +85,6 @@ while True:
         continue
 
     time.sleep(2)  # Wait at least 2 seconds between readings
+
+
+
