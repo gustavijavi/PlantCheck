@@ -64,6 +64,7 @@ lcd = character_lcd.Character_LCD_Mono(lcd_rs, lcd_en, lcd_d4, lcd_d5, lcd_d6, l
 def Display(flower,score):
     lcd.message(flower,1)
     lcd.message(score,2)
+    return
 
 
 #HUMDITY& TEMP& LIGHT
